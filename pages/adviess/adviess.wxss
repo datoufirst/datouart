@@ -1,0 +1,103 @@
+page{
+  background-image:url(http://www.datouart.com/upload/20171207/a7de8d04e8d63e15a26d57afbc8c43f6.png)
+ 
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  height: 1200rpx
+
+}
+.content_box{
+  margin-top: 30rpx;
+  width: 92%;
+  height: 1054rpx;
+  background: #fff;
+  margin: auto;
+  border-radius: 12rpx;
+  opacity: 0.75
+}
+.newsbar{
+  width: 653rpx;
+  height: 120rpx;
+  border-bottom: 1rpx solid #cfcfcf;
+  margin: auto
+}
+.newsbar image{
+  width: 65rpx;
+  height: 65rpx;
+  float: left;
+  margin-top: 30rpx;
+  margin-left: 20rpx
+}
+.discuss{
+  width: 400rpx;
+  height: 120rpx;
+  float:left;
+  margin-left: 20rpx
+}
+.userinfo{
+  width: 100%;
+  height:60rpx;
+  line-height: 70rpx;
+  font-size: 26rpx;
+  color: #784c21
+}
+.time{
+  width: 100%;
+  height: 24rpx;
+  font-size: 18rpx;
+  color: #dba86d;
+}
+.dis_con{
+  width: 100%;
+  height: 40rpx;
+  line-height: 35rpx;
+  font-size: 20rpx;
+  color: #a46b34;
+  /* background: pink */
+}
+.reply{
+   width: 653rpx;
+  height: 90rpx;
+  border-bottom: 1rpx solid #cfcfcf;
+  margin: auto
+}
+.reply image{
+  width: 65rpx;
+  height: 65rpx;
+  float: left;
+  margin-top: 15rpx;
+  margin-left: 76rpx 
+}
+.reply_cont{
+  width: 350rpx;
+  height: 90rpx;
+  float: left;
+  margin-left: 20rpx
+}
+.reply_time{
+  width: 100rpx;
+  height: 70rpx;
+  float: right;
+  font-size: 18rpx;
+  color: #e0b37e;
+  padding-top: 20rpx
+}
+.you_to{
+  width: 100%;
+  height: 25rpx;
+  font-size: 20rpx;
+  color: #a46b34;
+  padding-top: 20rpx;
+}
+.details{
+  width: 100%;
+  height: 45rpx;
+  line-height: 45rpx;
+  font-size: 22rpx;
+  color: #8a633b
+}

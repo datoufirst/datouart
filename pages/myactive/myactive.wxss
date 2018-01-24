@@ -1,0 +1,93 @@
+page{
+  background:url(http://www.datouart.com/upload/20171207/a7de8d04e8d63e15a26d57afbc8c43f6.png);
+}
+
+
+.son{
+      width: 92%;
+      height: 690rpx;
+      margin-top: 34rpx;
+      margin: auto;
+      /* border: 1rpx saddlebrown solid; */
+      margin-top: 30rpx
+}
+.box-nav-one{
+  position: relative;
+  margin-bottom: 30rpx;
+}
+.box-nav-one image{
+  width:692rpx;
+  height: 301rpx;
+  border-radius: 12rpx;
+}
+.box-nav-one-left{
+  width:402rpx;
+  height: 267rpx;
+  position: absolute;
+  left:0rpx;
+  top:0rpx;
+}
+
+.box-nav-one-left image{
+  width:402rpx;
+  height: 267rpx;
+  border-radius: 12rpx;
+  float: left;
+  margin-left: 20rpx;
+  margin-top: 18rpx;
+  /* border: 1px saddlebrown solid */
+}
+
+.box-nav-one .box-nav-one-right{
+  width:219rpx;
+  height: auto;
+  /* background: yellow;    */
+  position: absolute;
+  right:34rpx;
+  top:50rpx;
+  text-align: left
+}
+
+.box-nav-one .box-nav-one-right .active{
+  font-size: 26rpx;
+  color: rgb(120,76,33);
+  float: left;
+  font-weight: bold;
+  line-height: 32rpx;
+}
+
+.box-nav-one .box-nav-one-right .active-time{
+  font-size: 26rpx;
+  color: rgb(120,76,33);
+  float: left;
+  font-weight: bold;
+  margin-top:2rpx;
+  /* border: 1rpx saddlebrown solid */
+}
+
+ .box-nav-one .box-nav-one-right .join{
+  font-size: 26rpx;
+  float: left;
+   margin-top:12rpx; 
+  width: 150rpx;
+  color: #FF6600;
+  font-weight: bold;
+  height: 30rpx
+} 
+
+ .box-nav-one .box-nav-one-right .unit{
+  font-size: 22rpx;
+  color: rgb(120,76,33);
+  float: left;
+   margin-top:50rpx; 
+  width: 150rpx;
+ /* border: 1px saddlebrown solid; */
+  margin-top: 40rpx
+}
+
+ .box-nav-one .box-nav-one-right .school{
+  font-size: 22rpx;
+  color: rgb(120,76,33);
+  float: left;
+
+}

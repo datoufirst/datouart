@@ -1,0 +1,30 @@
+<view class="body">
+  <view class='header'>
+    <image src='http://www.datouart.com/upload/20171211/99434bdb45d055683bcb412fcf330c68.png'>
+        <view class='center'>
+          <image src='http://www.datouart.com/upload/20171211/13b67601c2e2ee3d0cd0be5ca281a817.png'></image>
+        </view>
+        <view class='name'>美 苑 画 馆</view>
+    </image>
+  </view> 
+
+  <view class='sch_con'>
+     <view class='title'>画馆简介</view>
+     <view class='bottom'></view>
+     <view class='school_con' >
+       <image src='http://www.datouart.com/upload/20171211/4b014d3c9e76f664a2d70eba0b81b182.png' class='cont_bg'>
+          <image src='http://www.datouart.com/upload/20171227/4ad1b10470ee7151b3f4d81b88c98f1a.png'></image>
+          <view class='infomation'>
+              <view> 艺术作为一门独特的表达和探索世界的方式，无论年纪大小，都可以通过它来表达自己对生活的理解。
+              </view>
+              <view> 对于成人来说：生活如果仅仅只有那方寸之地和财米油盐的计较，那未免也太无聊了，艺术能给你提供一种空间，在任何时候心都可以安住地方。
+
+              </view>
+    　        <view class='last_a'>对于小朋友来说：让小孩从小能有机会去学会感受和表达自己感受，美术是一种很好的教育手段。</view>
+          </view>
+       </image>
+  </view>
+
+  </view>
+
+</view>

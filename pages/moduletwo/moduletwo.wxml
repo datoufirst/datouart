@@ -1,0 +1,57 @@
+<view class='content'>
+    <view class='play'>
+     <image src='../../image/playbg.jpg'>
+        <view class='play_cont'>
+          <view class='play_title' style='color:#fdf3b7'>关于大头ART</view>
+          <video class='play_mv' src='{{videourl}}'></video>
+        </view>
+     </image> 
+    </view>
+
+<view class='title'>
+ <view class='click_box'>
+  <text class='them'>{{text}}</text>
+  </view>
+</view>
+<!--第二模块  -->
+<view hidden="{{currentTab!==0}}" class="one" style="height:670rpx" bindchange="bindChange">
+      <swiper class='banner' autoplay='true' indicator-dots="true"  indicator-color="#784c21" indicator-active-color="#f2a03f" circular='true'  interval="5000" duration="1500">
+         <swiper-item> 
+               <view class="footer-one" >
+                  <view class="footer-one-left" wx:for="{{listing}}" data-url="{{item.url}}" data-title="{{item.title}}" data-relevant="{{item.relevant}}" data-titles="{{item.titles}}" data-id='{{item.id}}' data-money="{{item.money}}" data-sj='{{item.sj}}' bindtap='two'>
+                    <image src="../../image/yellowbg.png" class="yellow">
+                      <image src="{{item.imgId}}" class="numberone"></image>
+                      <text class="no1">{{item.title}}</text>
+                      <text class="name">{{item.titles}}</text>
+                      <text class="time">{{item.sj}}分钟</text>
+                    </image>
+                  </view>
+                </view>
+          </swiper-item>
+          <swiper-item> 
+               <view class="footer-one" >
+                  <view class="footer-one-left" wx:for="{{listing1}}" data-url="{{item.url}}" data-title="{{item.title}}" data-relevant="{{item.relevant}}" data-titles="{{item.titles}}" data-id='{{item.id}}' data-money="{{item.money}}" data-sj='{{item.sj}}' bindtap='two'>
+                    <image src="../../image/yellowbg.png" class="yellow">
+                      <image src="{{item.imgId}}" class="numberone"></image>
+                      <text class="no1">{{item.title}}</text>
+                      <text class="name">{{item.titles}}</text>
+                      <text class="time">{{item.sj}}分钟</text>
+                    </image>
+                  </view>
+                </view>
+          </swiper-item>
+          <swiper-item> 
+               <view class="footer-one" >
+                  <view class="footer-one-left" wx:for="{{listing2}}" data-url="{{item.url}}" data-title="{{item.title}}" data-relevant="{{item.relevant}}" data-titles="{{item.titles}}" data-id='{{item.id}}' data-money="{{item.money}}" data-sj='{{item.sj}}'  bindtap='two'>
+                    <image src="../../image/yellowbg.png" class="yellow">
+                      <image src="{{item.imgId}}" class="numberone"></image>
+                      <text class="no1">{{item.title}}</text>
+                      <text class="name">{{item.titles}}</text>
+                      <text class="time">{{item.sj}}分钟</text>
+                    </image>
+                  </view>
+                </view>
+          </swiper-item>
+      </swiper>
+</view>
+</view>

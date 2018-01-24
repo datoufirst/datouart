@@ -1,0 +1,76 @@
+<view class="content" >
+    <view class='content_box'>
+       <view class='newsbar'>
+            <image src='../image/self1.png'></image>
+            <view class='discuss'>
+                  <view class='userinfo'>夏晓迪 4岁</view>
+                  <view class='time'>今天11：30</view>
+                  <view class='dis_con'>赶紧点赞~~</view>
+            </view>
+       </view> 
+
+       <view class='reply'>
+           <image src='../image/self2.png'></image>
+           <view class='reply_cont'>
+              <view class='you_to'>你回复了夏晓迪</view>
+              <view class='details'>谢谢你，嘻嘻</view>
+           </view>
+           <view class='reply_time'>今天12：00</view>
+       </view>
+
+       <view class='newsbar'>
+            <image src='../image/self1.png'></image>
+            <view class='discuss'>
+                  <view class='userinfo'>夏晓迪 4岁</view>
+                  <view class='time'>今天11：30</view>
+                  <view class='dis_con'>赶紧点赞~~</view>
+            </view>
+       </view>
+
+       <view class='newsbar'>
+            <image src='../image/self1.png'></image>
+            <view class='discuss'>
+                  <view class='userinfo'>夏晓迪 4岁</view>
+                  <view class='time'>今天11：30</view>
+                  <view class='dis_con'>赶紧点赞~~</view>
+            </view>
+       </view>
+
+       <view class='newsbar'>
+            <image src='../image/self1.png'></image>
+            <view class='discuss'>
+                  <view class='userinfo'>夏晓迪 4岁</view>
+                  <view class='time'>今天11：30</view>
+                  <view class='dis_con'>赶紧点赞~~</view>
+            </view>
+       </view>
+
+       <view class='newsbar'>
+            <image src='../image/self1.png'></image>
+            <view class='discuss'>
+                  <view class='userinfo'>夏晓迪 4岁</view>
+                  <view class='time'>今天11：30</view>
+                  <view class='dis_con'>赶紧点赞~~</view>
+            </view>
+       </view>
+
+       <view class='newsbar'>
+            <image src='../image/self1.png'></image>
+            <view class='discuss'>
+                  <view class='userinfo'>夏晓迪 4岁</view>
+                  <view class='time'>今天11：30</view>
+                  <view class='dis_con'>赶紧点赞~~</view>
+            </view>
+       </view>
+
+       <view class='newsbar'>
+            <image src='../image/self1.png'></image>
+            <view class='discuss'>
+                  <view class='userinfo'>夏晓迪 4岁</view>
+                  <view class='time'>今天11：30</view>
+                  <view class='dis_con'>赶紧点赞~~</view>
+            </view>
+       </view>
+
+    </view>
+</view>

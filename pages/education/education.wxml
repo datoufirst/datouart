@@ -1,0 +1,29 @@
+<view class="body">
+  <view class='header'>
+    <image src='http://www.datouart.com/upload/20171211/99434bdb45d055683bcb412fcf330c68.png'>
+        <view class='center'>
+          <image src='http://www.datouart.com/upload/20171211/13b67601c2e2ee3d0cd0be5ca281a817.png'></image>
+        </view>
+        <view class='name'>欢乐幼儿园</view>
+    </image>
+  </view> 
+
+  <view class='sch_con'>
+     <view class='title'>学校简介</view>
+     <view class='bottom'></view>
+     <view class='school_con' >
+       <image src='http://www.datouart.com/upload/20171211/4b014d3c9e76f664a2d70eba0b81b182.png' class='cont_bg'>
+          <image src='http://www.datouart.com/upload/20171211/068137d441f2cfa0fd7de22630eab9ed.png'></image>
+          <view class='infomation'>
+              <view> 红山区幼儿园是孩子成长的摇篮，是幼儿教育的殿堂当启明星点亮晨曦的时候满天是五彩的霞光。
+              </view>
+              <view>红山区幼儿园位于三中街路南58号，建于1955年占地面积3500平方米建筑面积4000余平方米，是一所拥有教学楼两座及部分辅助用房的现代化幼儿园
+              </view>
+    　        <view class='last_a'>半个多世纪以来，一代代“红幼人”的爱心阳光里迎来送往一批批的孩子，孩子因成为红山区幼儿园的学子而骄傲，幼儿园的老师为孩子的健康成长而自豪                </view>
+          </view>
+       </image>
+  </view>
+
+  </view>
+
+</view>

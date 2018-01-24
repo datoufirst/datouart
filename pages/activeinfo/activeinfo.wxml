@@ -1,0 +1,29 @@
+<view bindtap='save'>
+<view class="container" bindtap='getsave' >
+<text class='title'>大头儿子学画画</text>
+<text class='title'>艺术之旅</text>
+<text class='s_title'>户外游玩写生</text>
+<view class='info'><text>报名时间：</text>11 月 20号--11 月 31号</view>
+<view class='info'><text>活动地址：</text>杭州上城区白云路八卦田</view>
+
+<view class='con'>
+<view class='introduce'>
+活动介绍
+</view>
+
+<view class='introduce'>
+报名成功可获得
+</view>
+
+<view class='introduce'>
+报名须知
+</view>
+</view>
+
+<view class='baom' bindtap='success'>
+  <image src='http://www.datouart.com/upload/20171207/fa204310f1090ef56d12d86a2f900e9d.png' bindtap='success'>
+     <view>{{text}}</view>
+  </image>
+</view>
+</view>
+</view>

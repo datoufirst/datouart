@@ -1,0 +1,61 @@
+page{
+  background-image:url(http://www.datouart.com/upload/20171207/a7de8d04e8d63e15a26d57afbc8c43f6.png)
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.content_box{
+  width: 92%;
+  height: 100%;
+}
+.title_week{
+  font-size:28rpx;
+  font-weight: bold;
+  margin-top: 30rpx;
+  color: #784c21
+}
+
+.history{
+  width: 100%;
+  height: 213rpx;
+  margin-top: 30rpx;
+  background: #ffffff;
+  border-radius: 12rpx
+}
+.history image{
+  margin-top: 12rpx;
+  margin-left: 12rpx;
+  width: 353rpx;
+  height: 190rpx;
+  float: left
+}
+.history_content{
+  width:270rpx;
+  height: 120rpx;
+  float: right;
+  margin-top: 68rpx;
+  margin-right: 12rpx;
+}
+.played_title{
+  width: 100%;
+  height: 30rpx;
+  font-size: 24rpx;
+  line-height: 30rpx;
+  color: #b07f4f;
+  font-weight: bold
+}
+.stop_time{
+  width: 100%;
+  height: 30rpx;
+  font-size: 24rpx;
+  line-height: 30rpx;
+  color: #dba86d;
+  margin-top: 12rpx;
+}
+.bot{
+  margin-bottom: 20rpx
+}

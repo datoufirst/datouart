@@ -1,0 +1,8 @@
+<view class="content">
+  
+  <view class='box_input'>
+    <input type='text' value="{{text}}"  bindinput='inputvalue'></input>
+    <view class='save' bindtap='save' >保存</view>
+  </view>
+  <view class='anther'>好名字让更多朋友知道你</view>
+</view>

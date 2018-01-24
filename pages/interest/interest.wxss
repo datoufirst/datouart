@@ -1,0 +1,116 @@
+page{
+  background:url(http://www.datouart.com/upload/20171207/a7de8d04e8d63e15a26d57afbc8c43f6.png);
+}
+.banner{
+  width:750rpx;
+  height: 292rpx;
+  box-shadow: 5rpx 5rpx 20rpx #cfa459;
+}
+
+.banner image{
+   width:750rpx;
+  height: 292rpx; 
+  position: relative;
+}
+
+.banner .option{
+  font-size: 26rpx;
+  position: absolute;
+  right:30rpx;
+  top:29rpx;
+  color: rgb(133,90,48);
+}
+
+.banner .banner-head{
+  width:150rpx;
+  height: 235rpx;
+   /* background: pink;  */
+  position: absolute;
+  left:300rpx;
+  top: 31rpx;
+}
+
+.banner .banner-head image{
+  width:150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+  float: left;
+}
+
+.banner .banner-head  .name{
+  font-size: 26rpx;
+  color: rgb(133,90,48);
+  float: left;
+  margin-left:40rpx;
+  margin-top:10rpx;
+}
+
+.banner .banner-head  .old{
+  font-size: 26rpx;
+  color: rgb(133,90,48);
+  float: left;
+  margin-left:62rpx;
+  margin-top:4rpx;
+}
+
+
+
+.one{
+  width:92%;
+  height: 280rpx;
+  /* background: red; */ 
+  margin:0 auto;
+  margin-top:30rpx;
+}
+
+.one .one-left{
+  width:330rpx;
+  height: 100%;
+  /* background: pink; */
+  float: left;
+  box-shadow: 5rpx 5rpx 20rpx #cfa459;
+  border-radius: 12rpx;
+}  
+
+.one .one-left .baby{
+  width:330rpx;
+  height: 100%; 
+  border-radius: 12rpx;
+  position: relative;
+  
+}
+
+.one .one-left .one-left-top{
+  width:298rpx;
+  height: 213rpx;
+  /* background: red; */
+  position: absolute;
+  left:16rpx;
+  top:17rpx;
+  
+}
+
+
+.one .one-left .one-left-bottom{
+  width:298rpx;
+  height: 50rpx;
+  line-height: 56rpx;
+  font-weight: bold;
+   /* background: red;  */
+  position: absolute;
+  left:16rpx;
+  top:228rpx;
+}
+
+.one .one-left .one-left-bottom .name{
+  font-size: 22rpx;
+  color: rgb(255,255,255);
+  float: left;
+  
+}
+
+.one .one-left .one-left-bottom .time{
+  font-size: 20rpx;
+  color: rgb(255,255,255);
+  float: right;
+}

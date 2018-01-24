@@ -1,0 +1,381 @@
+page{
+  background:url(http://www.datouart.com/upload/20171207/a7de8d04e8d63e15a26d57afbc8c43f6.png);
+}
+.swiper {
+  width: 92%;
+  height: 340rpx;
+  margin:0 auto;
+  margin-top:28rpx;
+  /* box-shadow: 3px 3px 3px 0px gray; */
+  
+}
+.swiper image {
+  height: 100%;
+  width: 100%;
+  border-radius: 12rpx;
+}
+
+.tofairy{
+  width:100%;
+  height: 40rpx;
+  
+}
+
+.tofairy-nav{
+  width:92%;
+  height: 40rpx;
+  margin: auto;
+  /* border: 1rpx solid saddlebrown; */
+  margin-top: 20rpx
+}
+
+.tofairy-nav .tofairy-nav-write{
+  width:100%;
+  height: 30rpx;
+  /* background: blue;  */
+  font-size: 26rpx;
+  color: #7F562A;
+  font-weight: bold;
+}
+
+.tofairy-nav .tofairy-nav-write write1{
+  float: left;
+}
+
+
+ .one-nav{
+  width:98%;
+  height: 321rpx;
+  margin: auto;
+  /* border: 1rpx saddlebrown solid */
+
+  margin-bottom: 20rpx;
+}
+ .one-left{
+  width:330rpx;
+  height: 100%;
+  float: left;
+  margin: 19rpx
+
+}  
+.bluebackground{
+  width:330rpx;
+  height: 100%;
+  border-radius: 12rpx;
+  position: relative;
+  box-shadow: 5rpx 5rpx 20rpx #cfa459;
+}
+.one-left-top{
+  width:298rpx;
+  height: 201rpx;
+  /* background: red; */
+  position: absolute;
+  left:16rpx;
+  top:17rpx;
+}
+
+.one-left-top image{
+  width:298rpx;
+  height: 201rpx;
+}
+
+.one-left-bottom{
+  width:260rpx;
+  height: 80rpx;
+  /* background: red; */
+  position: absolute;
+  left:40rpx;
+  top:228rpx;
+}
+
+.one-left-bottom image{
+  width:80rpx;
+  height: 80rpx;
+  float: left;
+  border-radius: 50%;
+}
+ .one-left-bottom-right{
+  width:160rpx;
+  height: 100%;
+   /* background: pink;  */
+  float: right;
+}
+ .one-left-bottom-right .person{
+  width:100%;
+  height: 28rpx;
+    /* background: blue;   */
+  font-weight: bold;
+  color: #ffffff;
+  
+}
+
+ .one-left-bottom-right .person .name{
+  font-size: 24rpx;
+  float: left;
+  line-height: 30rpx;
+  
+ max-width: 50px;
+ /* background: rebeccapurple; */
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+}
+.one-left-bottom-right .person .old{
+  font-size: 24rpx;
+  float: right;
+  line-height: 30rpx;
+}
+
+.one-left-bottom-right .write{
+  width:100%;
+  height: 20rpx;
+  /* background: yellow; */
+  font-size: 20rpx;
+  float: left;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+
+.number{
+  width:100%;
+  height: 26rpx;
+  /* background: blue; */
+  float: left;
+  margin-top:8rpx;
+}
+
+.number-left{
+  width:50rpx;
+  height: 100%;
+  /* background: pink; */
+  float: left;
+}
+
+.number-left image{
+
+  width:24rpx;
+  height: 100%;
+  float: left;
+  margin-top:4rpx;
+}
+
+ .number .number-left .eye{
+  font-size: 18rpx;
+  float: right;
+  line-height: 34rpx;
+  color: rgb(61,100,6);
+}
+
+
+
+.number-right{
+  width:50rpx;
+  height: 100%;
+  /* background: pink; */
+  float: left;
+  margin-left:16rpx;
+}
+
+ .number-right image{
+
+  width:23rpx;
+  height: 20rpx;
+  float: left;
+  margin-top:6rpx;
+}
+
+.number-right .good{
+  font-size: 18rpx;
+  float: right;
+  line-height: 34rpx;
+  color: rgb(61,100,6);
+}
+
+/* 近期活动 */
+.active{
+  width:100%;
+  height: 343rpx;
+   /* background: red;  */
+  margin-top:60rpx;
+}
+
+.active .active-nav{
+  width:692rpx;
+  height: 100%;
+  /* background: blue; */
+  margin:0 auto;
+}
+
+.active .active-nav .active-nav-top{
+  width:100%;
+  height: 42rpx;
+   /* background: yellow;  */
+  font-size:26rpx;
+  color: #784C21;
+  font-weight: bold;
+}
+.recent{
+  float: left;
+}
+
+ .many{
+  float: right;
+}
+
+
+
+.box .box-nav{
+  width:92%;
+  height: 100%;
+  margin: 0 auto;
+}
+.box-nav-one{
+  position: relative;
+  margin-bottom: 30rpx;
+}
+.box-nav-one image{
+  width:692rpx;
+  height: 301rpx;
+  border-radius: 12rpx;
+}
+.box-nav-one-left{
+  width:402rpx;
+  height: 267rpx;
+  position: absolute;
+  left:0rpx;
+  top:0rpx;
+}
+
+.box-nav-one-left image{
+  width:402rpx;
+  height: 267rpx;
+  border-radius: 12rpx;
+  float: left;
+  margin-left: 20rpx;
+  margin-top: 18rpx;
+  /* border: 1px saddlebrown solid */
+}
+
+ .box-nav-one-right{
+  width:219rpx;
+  height: 250rpx;
+  /* background: yellow;      */
+  position: absolute;
+  right:34rpx;
+  top:20rpx;
+  text-align: left
+}
+
+ .box-nav-one-right .active{
+   width: 100%;
+   height: 30rpx;
+   margin-top: 20rpx;
+  font-size: 26rpx;
+  color: #FF6600;
+  float: left;
+  font-weight: bold;
+  line-height: 32rpx;
+  margin-top: 20rpx;
+  text-align: center
+}
+
+.active-time{
+  font-size: 26rpx;
+  color: rgb(120,76,33);
+  float: left;
+  margin-top:8rpx;
+  width: 100%;
+  text-align: center
+}
+.active-info{
+  font-size: 26rpx;
+  color: rgb(120,76,33);
+  float: left;
+  font-weight: bold;
+  margin-top:10rpx;
+  width: 100%;
+  text-align: center
+}
+
+.btn{
+   width: 100%;
+   height: 40rpx;
+   float: left;
+   margin-top: 20rpx;
+   /* border: 1rpx solid salmon */
+ }
+.btn image{
+  width: 220rpx;
+  height: 40rpx;
+  position: relative
+}
+.btn image view{
+  width: 200rpx;
+  height: 40rpx;
+  position: absolute;
+  top: 0;
+  text-align: center;
+  line-height: 40rpx;
+  color: #fff;
+  font-size: 24rpx
+}
+
+
+
+/*授权不成功  */
+.icon{
+  /* border: 1rpx saddlebrown solid; */
+  margin: auto;
+  margin-top: 30rpx
+}
+.top_warn{
+  width: 100%;
+  height: 320rpx;
+  margin: auto;
+  text-align: center;
+  background: #fff
+}
+
+.warn_title{
+  margin-top: 20rpx;
+  font-size: 42rpx;
+  color: #cfcfcf
+}
+.top_warn text{
+  font-size: 32rpx;
+  color: #cfcfcf
+}
+.body_warn{
+  width: 100%;
+  height: 950rpx;
+  background: #fdfaec
+}
+.body_center{
+  width: 90%;
+  height: 950rpx;
+  /* border: 1rpx saddlebrown solid; */
+  margin: auto
+}
+.body_warn image{
+  width: 600rpx;
+  height: 520rpx;
+  margin: auto;
+  text-align: center;
+  display: block
+}
+.body_title{
+  /* border: 1rpx saddlebrown solid; */
+  font-size: 32rpx;
+  color: #cfcfcf;
+  font-weight: 600;
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx
+}
+.body_a{
+  font-size: 32rpx;
+  color: #cfcfcf;
+  margin-top: 40rpx;
+  margin-bottom: 20rpx
+}

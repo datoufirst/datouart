@@ -1,0 +1,45 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "1.6.4",
+	"appid": "wxd6c8fe5dae40e500",
+	"projectname": "%E5%A4%A7%E5%A4%B4%E5%84%BF%E5%AD%90%E5%AD%A6%E7%94%BB%E7%94%BB",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "启动",
+					"pathName": "pages/privilege/privilege",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "分享",
+					"pathName": "pages/detailone/detailone",
+					"query": "id=307",
+					"scene": "1044"
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,138 @@
+page{
+  background:url(http://www.datouart.com/upload/20171207/a7de8d04e8d63e15a26d57afbc8c43f6.png);
+}
+.banner{
+  width:750rpx;
+  height: 292rpx;
+  /* background: red; */
+}
+
+.banner image{
+   width:750rpx;
+  height: 292rpx; 
+  position: relative;
+}
+
+.banner .option{
+  font-size: 26rpx;
+  position: absolute;
+  right:30rpx;
+  top:29rpx;
+  color: rgb(133,90,48);
+}
+
+.banner .banner-head{
+  width:170rpx;
+  height: 230rpx;
+  /* background: pink; */
+  text-align:center;
+  position: absolute;
+  left:290rpx;
+  top: 31rpx;
+  /* border: 1rpx saddlebrown solid */
+}
+
+.banner .banner-head image{
+  width:170rpx;
+  height: 170rpx;
+  border-radius: 50%;
+  
+}
+
+.banner .banner-head  .name{
+  font-size: 26rpx;
+  color: rgb(133,90,48);
+  margin-top:10rpx;
+  width: 100%;
+  height: 30rpx;
+  /* border: 1rpx saddlebrown solid */
+}
+
+.banner .banner-head  .old{
+  font-size: 26rpx;
+  width: 100%;
+  height: 30rpx;
+  color: rgb(133,90,48);
+  /* border: 1rpx seagreen solid */
+}
+
+.one{
+  width:98%;
+  height: 280rpx;
+  margin:0 auto;
+  margin-top:45rpx;
+  
+}
+
+.one .one-left{
+  width:330rpx;
+  height: 100%;
+  float: left;
+  box-shadow: 5rpx 5rpx 20rpx #cfa459;
+  border-radius: 12rpx;
+  margin: 19rpx
+
+}  
+
+.one .one-left image{
+  width:330rpx;
+  height: 100%;
+  /* border-radius: 15rpx; */
+  position: relative;
+  border-radius: 12rpx;
+
+}
+
+.one .one-left .one-left-top{
+  width:298rpx;
+  height: 213rpx;
+  /* background: red; */
+  position: absolute;
+  left:16rpx;
+  top:17rpx;
+}
+
+.one .one-left .one-left-top image{
+  width:298rpx;
+  height: 213rpx;
+  border-radius: 12rpx;
+}
+
+.one .one-left .one-left-bottom{
+  width:298rpx;
+  height: 50rpx;
+   /* background: red;  */
+  position: absolute;
+  left:16rpx;
+  top:228rpx;
+}
+
+.one .one-left .one-left-bottom .name{
+  font-size: 22rpx;
+  color: rgb(255,255,255);
+  float: left;
+  line-height: 54rpx;
+}
+
+.one .one-left .one-left-bottom .time{
+  font-size: 20rpx;
+  color: rgb(255,255,255);
+  float: right;
+  line-height: 54rpx;
+}
+
+.two{
+  width: 92%;
+  height: 600rpx;
+  font-size: 34rpx;
+  font-weight: bold;
+  text-align: center;
+  line-height: 600rpx;
+  border-radius: 15rpx;
+  background: #fff;
+  color: #cfa459;
+  margin: auto;
+  position: relative;
+  z-index: 1;
+  margin-top: 50rpx
+}

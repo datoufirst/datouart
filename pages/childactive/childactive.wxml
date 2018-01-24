@@ -1,0 +1,10 @@
+<view class='container'>
+<text class='title'>填写报名信息</text>
+<view class='content'>
+<input class='info' type='text' placeholder='请输入手机号'></input>
+<input class='info' type='text' placeholder='宝宝姓名'></input>
+<input class='info' type='text' placeholder='宝宝年龄'></input>
+<input class='info' type='text' placeholder='所在地区'></input> 
+<button>立即报名</button>
+</view>
+</view>

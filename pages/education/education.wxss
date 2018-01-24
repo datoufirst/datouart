@@ -1,0 +1,109 @@
+page{
+  background-image:url(http://www.datouart.com/upload/20171207/a7de8d04e8d63e15a26d57afbc8c43f6.png)
+  
+}
+.body{
+   height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.header{
+  width: 100%;
+  height: 293rpx;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 100%; 
+  box-shadow: 0px 1px 20px 5px #d9d591;
+  position: relative
+}
+.header image{
+  width: 100%;
+  height: 293rpx;
+}
+.center{
+  width: 170rpx;
+  height:170rpx;
+  margin: auto;
+  margin-top: 40rpx;
+  position: absolute;
+  top: 0rpx;
+  left: 290rpx;
+}
+.center image{
+  width: 170rpx;
+  height: 170rpx;
+}
+.name{
+  width: 100%;
+  height: 40rpx;
+  text-align: center;
+  font-size: 22rpx;
+  color:#855a30;
+  margin-top: 12rpx;
+  position: absolute;
+  top: 220rpx
+}
+.sch_con{
+  width: 100%;
+  height: 910rpx;
+}
+.title{
+  font-size: 26rpx;
+  font-weight: bold;
+  color: #855a30;
+  width: 100%;
+  height: 38rpx;
+  line-height: 38rpx;
+  text-align: center;
+  margin-top: 24rpx;
+  /* background: palegoldenrod; */
+  margin-bottom: 8  rpx
+}
+.bottom{
+  width: 78rpx;
+  height: 4rpx;
+  background: #855a30;
+  margin: auto
+}
+.school_con{
+  width: 92%;
+  height: 774rpx;
+  margin: auto;
+  margin-top: 38rpx;
+  position: relative;
+}
+.school_con image {
+  width: 100%;
+  height: 774rpx;
+  position: absolute;
+ 
+}
+.school_con image image{
+  width: 563rpx;
+  height: 343rpx;
+  position: absolute;
+  top: 42rpx;
+  left: 65rpx;
+}
+.infomation{
+  width: 572rpx;
+  height: 314rpx;
+  position: absolute;
+  top: 402rpx;
+  left: 65rpx;
+  font-size: 24rpx;
+  font-weight: 600;
+  color: #89733e ;
+  /* border: 1px #855a30 solid */
+}
+.infomation view{
+   text-indent: 42rpx ;
+   /* border:1rpx saddlebrown solid */
+}
+.last_a{
+  margin-top: -32rpx
+}

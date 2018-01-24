@@ -1,0 +1,51 @@
+page{
+  background-image:url(http://www.datouart.com/upload/20171207/a7de8d04e8d63e15a26d57afbc8c43f6.png)
+ 
+}
+.content{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+ 
+}
+.box_input{
+  width: 600rpx;
+  height: 84rpx;
+  background: #fff;
+  opacity: 0.7;
+  border-radius: 20rpx;
+  margin: auto;
+  margin-top: 60rpx;
+  font-size: 26rpx;
+  color: #784c21;
+}
+.box_input input{
+  width: 77%;
+  height: 84rpx;
+  border-radius: 20rpx;
+  /* border: 1px saddlebrown solid; */
+  padding-left: 13rpx;
+  float: left
+}
+.save{
+  margin-top: 26rpx;
+  width: 15%;
+  height: 32rpx;
+  /* border: 1rpx solid salmon; */
+  float: right;
+  line-height: 32rpx;
+  text-align: center;
+  border-left: 1rpx solid #b59773 
+}
+.anther{
+  width: 600rpx;
+  height: 50rpx;
+  font-size: 24rpx;
+  color: #a46b34;
+  margin: auto;
+  line-height: 80rpx;
+  /* border: 1rpx solid gainsboro */
+}

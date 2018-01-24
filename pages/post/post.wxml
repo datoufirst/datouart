@@ -1,0 +1,103 @@
+
+<view hidden='{{a}}'>
+  <form bindsubmit="formSubmit">
+    <view class="head">
+      <view class="head-pic">
+        <image src="../../image/greenbg.png">
+          <view class="head-pic-nav">
+            <image src="{{img}}">
+              <view class="shade"></view>
+              <view class="photo">
+                <image src="../../image/photo.png" bindtap="upShopLogo"></image>
+                <text>上传照片</text>
+              </view>
+            </image>
+          </view>
+        </image>
+      </view>
+    </view>
+
+    <view class="select">
+      <view class="select-nav">
+        <view class="select-nav-left">
+          <text>选择话题</text>
+          <view class="select-nav-right">
+            <view class="phone_one" bindtap="clickPerson">
+              <view class="phone_personal" name='them'>{{firstPerson}}</view>
+              <image src="../../image/arrows.png"></image>
+            </view>
+            <view class="person_box">
+              <view class="phone_select" hidden="{{selectPerson}}">
+              <view class="select_one" bindtap="mySelect" data-me="童画">童画</view>
+                <view class="select_one" bindtap="mySelect" data-me="童趣">童趣</view>
+              </view>
+            </view>
+          </view>
+        </view>
+
+        <view class="select-nav-left" style="float:right;">
+          <text>学习画画</text>
+          <view class="select-nav-right">
+            <view class="phone_one" bindtap="clickchild">
+              <view class="phone_personal" name="year">{{firstchild}}</view>
+              <image src="../../image/arrows.png"></image>
+            </view>
+        
+            <view class="person_box">
+              <view class="phone_select" hidden="{{selectchild}}">
+              <view class="select_one" bindtap="ourSelect" data-me="半年以下">半年以下</view>
+                <view class="select_one" bindtap="ourSelect" data-me="一年">一年</view>
+                <view class="select_one" bindtap="ourSelect" data-me="一年半">一年半</view>
+                <view class="select_one" bindtap="ourSelect" data-me="两年">两年</view>
+                <view class="select_one" bindtap="ourSelect" data-me="三年">三年</view>
+                <view class="select_one" bindtap="ourSelect" data-me="四年">四年</view>
+                <view class="select_one" bindtap="ourSelect" data-me="五年">五年</view>
+                <view class="select_one" bindtap="ourSelect" data-me="六年">六年</view>
+                <view class="select_one" bindtap="ourSelect" data-me="七年">七年</view>
+                <view class="select_one" bindtap="ourSelect" data-me="八年">八年</view>
+                <view class="select_one" bindtap="ourSelect" data-me="九年">九年</view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view> 
+
+
+    <view class="designation">
+      <text>作品名称</text>
+      <input class='mingc' type='text' maxlength="6" placeholder='6个字以内' placeholder-style="color:rgb(164,107,52);" value="{{workname}}" bindinput='Workname'></input>
+    </view>
+
+    <view class="synopsis">
+      <text>作品简介</text>
+      <textarea cols="30" rows="10" placeholder='分享孩子的点点滴滴...(50个字以内) 'maxlength="50"  placeholder-style="color:rgb(164,107,52);" value="{{workinfo}}" bindinput='Workinfo'></textarea>
+    </view>
+
+    <view class="footer">
+    <button formType="submit" >马上发布</button>
+    </view>
+  </form>
+</view>
+
+<!-- 授权不成功 -->
+<view hidden='{{b}}'>
+  <view class='top_warn'>
+    <icon type='warn' size='60' class='icon'></icon>
+  
+    <view>
+       <view class='warn_title'>登录失败</view> 
+       <text>进入大头课堂需要授权，请重新进入并允许授权</text> 
+    </view> 
+  </view>
+
+  <view class='body_warn'>
+    <view class='body_center'>
+        <view class='body_title'>如何允许微信授权</view>
+        <view class='body_a'>1.在小程序列表中长按“大头儿子学画画”删除之后，重新搜索“大头儿子学画画”进入</view>
+        <image src='../../image/warn.jpg'></image>
+         <view class='body_a'>2.点击进入“大头儿子学画画”小程序之后，将出现以下微信授权页面，点击“允许”</view>
+         
+    </view>
+ </view> 
+</view>  

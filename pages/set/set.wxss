@@ -1,0 +1,282 @@
+page{
+  background-image:url(http://www.datouart.com/upload/20171207/a7de8d04e8d63e15a26d57afbc8c43f6.png)
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  
+}
+.content_box{
+  width: 100%;
+  height: 1280rpx
+}
+.content_one{
+  width: 100%;
+  height: 354rpx;
+  background: #fffce9;
+  opacity: 0.75;
+  box-shadow: 10rpx 5rpx 25rpx 5rpx #e9dfa1;
+  
+}
+
+.content_two{
+  width: 100%;
+  height: 265rpx;
+  background: #fffce9;
+  opacity: 0.75;
+  margin-top: 15rpx;
+  box-shadow: 10rpx 5rpx 25rpx 5rpx #e9dfa1;
+}
+.small_box{
+  width: 92%;
+  height: 100%;
+  margin: auto;
+}
+.photo{
+  widows: 100%;
+  height: 90rpx;
+  border-bottom: 1rpx solid #cfcfcf;
+  font-size: 28rpx;
+  color: #784c21;
+  line-height: 90rpx
+}
+.left{
+  float: left
+}
+.right{
+  float: right
+}
+
+
+/*mask*/  
+.drawer_screen {  
+  width: 100%;  
+  height: 100%;  
+  position: fixed;  
+  top: 0;  
+  left: 0;  
+  z-index: 1000;  
+  background: #000;  
+  opacity: 0.5;  
+  overflow: hidden;  
+}  
+  
+/*content*/  
+.drawer_box {  
+  width: 600rpx;  
+  height: 362rpx;
+  overflow: hidden;  
+  position: fixed;  
+  top: 334rpx;  
+  left: 70rpx;  
+  z-index: 1001;  
+  background: #FAFAFA;  
+  border-radius: 3px;  
+}  
+.drawer_content {  
+  height: 362rpx; 
+  position: relative
+}  
+
+.ok image{
+  width: 98rpx;
+  height: 98rpx;
+  position: absolute;
+  left:150rpx;
+  display: block
+}
+.sucess{
+  width: 100%;
+  height: 100rpx;
+  text-align: center;
+  font-size: 44rpx;
+  color: #a46b34;
+  position: absolute;
+  top: 160rpx
+}
+  
+.btn_ok{  
+ width: 226rpx;
+ height: 77rpx;
+ font-size: 28rpx;
+ color: #fff;
+ margin: auto;
+ background: no-repeat;
+ background-size: 100%;
+ text-align: center;
+ line-height: 77rpx;
+ position: absolute;
+ bottom: 50rpx;
+ left: 167rpx
+}
+.sex_title{
+  width: 90%;
+  height: 80rpx;
+  line-height: 80rpx;
+  margin: auto;
+  margin-top: 44rpx;
+  color: #784c21
+}  
+.boy{
+  width: 90%;
+  height: 90rpx;
+  margin: auto;
+  border-bottom: 1rpx solid #cfcfcf
+}  
+.sex{
+  font-size: 32rpx;
+  color: #a46b34;
+  margin-top: 20rpx;
+  line-height: 50rpx;
+  float: left;  
+}
+.chose{
+  width: 25rpx;
+  height: 25rpx;
+  border-radius: 50%;
+  border:1px solid #cfcfcf;
+  float: right;
+  margin-top: 35rpx;
+}
+.point{
+  width: 15rpx;
+  height: 15rpx;
+  border-radius: 50%;
+  background: orange;
+  margin: 5rpx;
+  display: none
+}
+.chose:hover{
+ border-color: orange;
+}
+ .chose:hover .point{
+ display: block
+} 
+
+
+.hidden_box{
+  width: 600rpx;
+  height: 418rpx;
+  background: #e9dfa1;
+  margin: auto;
+  border: 1px saddlebrown solid
+}
+
+
+
+
+
+
+
+
+
+/*第二个弹窗  */
+
+.show-btn {
+  margin-top: 100rpx;
+  background: #fff;
+  opacity: 0.75
+}
+
+.modal-mask {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #000;
+  opacity: 0.5;
+  overflow: hidden;
+  z-index: 9000;
+  color: #fff;
+  border: 1px solid darkblue
+}
+
+.modal-dialog {
+  width: 600rpx;
+  height: 420rpx;
+  overflow: hidden;
+  position: fixed;
+  top: 430rpx;
+  left: -20rpx;
+  z-index: 9999;
+  background: #f5f5f5;
+  margin: -180rpx 105rpx;
+  border-radius: 12rpx;
+}
+
+.modal-title {
+  font-size: 28rpx;
+  color: #80572f;
+  text-align: center;
+  height: 30rpx;
+  width: 100%;
+  padding-top: 30rpx
+}
+
+.modal-content {
+ height: 190rpx;
+ width: 482rpx;
+ margin-left: 60rpx;
+ font-size: 24rpx;
+ margin-top: 28rpx
+}
+
+
+
+.modal-footer {
+  display: flex;
+  flex-direction: row;
+  height: 103rpx;
+  font-size: 34rpx;
+  line-height: 86rpx;
+  margin-top: 50rpx
+}
+
+.btn-cancel {
+  width: 50%;
+  text-align: center;
+  border-right: 1px solid #dedede;
+}
+
+.btn-confirm {
+  width: 209rpx;
+  height: 76rpx;
+  border-radius: 12rpx;
+  text-align: center;
+  margin-left: 200rpx;
+  margin-bottom: 0rpx;
+  color: #fff;
+  background: repeat;
+  background-size: 100%;
+  line-height: 76rpx;
+  text-align: center
+
+}
+.selected{
+  height: 50rpx;
+  width: 100%;
+  line-height: 50rpx;
+  border-top: 1rpx solid #cfcfcf;
+  border-bottom: 1rpx solid #cfcfcf;
+  color:#a46b34;
+
+}
+.will-select{
+  width: 100%;
+  height: 30rpx;
+  font-size: 24rpx;
+  color: #ddad76
+}
+
+.month{
+  text-align: center;
+  line-height: 30rpx
+}
+.day{
+  text-align: right;
+  line-height: 30rpx
+}

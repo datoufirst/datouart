@@ -1,0 +1,130 @@
+page{
+  background:url(http://www.datouart.com/upload/20171207/a7de8d04e8d63e15a26d57afbc8c43f6.png);
+}
+
+.top_content{
+  width:100%;
+  height: 400rpx;
+  border: 1rpx saddlebrown solids
+}
+.shade{
+  width:100%;
+  height: 400rpx;
+  /* background: red; */
+  position: absolute;
+  left:0;
+  top:0;
+  z-index: 2;
+}
+.topopac{
+  width:100%;
+  height: 400rpx;
+  background: black;
+  opacity: 0.7;
+}
+.shade .purchase{
+  position: absolute;
+  left:230rpx;
+  top:90rpx;
+  font-size: 30rpx;
+  color:#fff;
+}
+
+.shade .money{
+  position: absolute;
+  left:300rpx;
+  top:160rpx;
+  font-size: 30rpx;
+  color:#fff;
+}
+
+.shade .buy{
+  width:130rpx;
+  height: 50rpx;
+  background: #B5DB84;
+  border-radius: 12rpx;
+  font-size: 26rpx;
+  line-height: 50rpx;
+  text-align: center;
+  position: absolute;
+  left:306rpx;
+  top:250rpx;
+}
+video{
+  width:100%;
+  height: 400rpx;
+  position: relative;
+}
+
+.nav{
+  width:100%;
+  height: 800rpx;
+   /* background: red;  */
+}
+
+.nav-middle{
+  width:94%;
+  height: 100%;
+   /* background: rebeccapurple;  */
+  margin:0 auto;
+}
+
+.nav-middle .details{
+  font-size:34rpx;
+  color:#784C21;
+  font-weight:bold;
+  display: flex;
+  justify-content: center;
+  line-height: 100rpx;
+    /* background: yellow;   */
+}
+
+.nav-middle .nav-middle-bottom{
+  width:100%;
+  height: 550rpx;
+   /* background: blue;  */
+}
+.nav-middle .nav-middle-bottom image{
+  width:100%;
+  height: 100%;
+  position: relative;
+}
+
+.nav-middle .nav-middle-bottom .pic-nav{
+  width:600rpx;
+  height: 450rpx;
+   /* background: blue;  */
+  position: absolute;
+  left:50rpx;
+  top:30rpx;
+}
+
+.nav-middle .nav-middle-bottom .pic-nav .first{
+  font-size: 34rpx;
+  color:#784C21;
+  font-weight:bold; 
+  float: left;
+  width:100%;
+  margin-top:20rpx;
+}
+
+.nav-middle .nav-middle-bottom .pic-nav .purpose{
+  font-size: 28rpx;
+  color:#784C21;
+  font-weight:bold; 
+  float: left;
+  width:100%;
+  margin-left:-10rpx;
+  margin-top:16rpx;
+  
+}
+
+.nav-middle .nav-middle-bottom .pic-nav .one{
+  font-size: 26rpx;
+  color:#784C21;
+  float: left;
+  width:100%;
+  margin-top:12rpx;
+  line-height: 40rpx;
+}
+

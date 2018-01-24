@@ -1,0 +1,75 @@
+<view class="body" >
+  <view class='header'>
+   <image src='http://www.datouart.com/upload/20171207/3b9f6ee686b5ae5381c042eb3cef9e29.png'>
+        <view class='center'>
+           <image src='http://www.datouart.com/upload/20171211/4de48487fd25cc03d428daa3f237b22a.png'></image>
+        </view>
+        <text class='name'>小雨老师</text>
+        <text class='old'>欢乐幼儿园 </text>
+    </image>
+  </view> 
+
+  <!--选项卡  -->
+  <view class="nav">
+    <view class="navbar">  
+      <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique" bindtap="navbarTap">{{item}}
+      </text>  
+    </view> 
+</view> 
+ <view hidden="{{currentTab!==0}}" class="one" bindchange="bindChange" >
+   <view class='bg_content'>
+    <image src='http://www.datouart.com/upload/20171211/4b014d3c9e76f664a2d70eba0b81b182.png'>
+        <view class='article'>
+          <view class='wz_content'>
+          011年毕业于四川美术学院视觉传达专业。 在校期间获得多次奖学金，在第四届全国大学生广告大赛中获得优秀奖，获得“第12届PHE中小学生幼儿美术...2011年毕业于四川美术学院视觉传达专业。
+          </view> 
+          <view class='wz_content'>
+          在校期间获得多次奖学金，在第四届全国大学生广告大赛中获得优秀奖，获得“第12届PHE中小学生幼儿美术...2011年毕业于四川美术学院视觉传达专业。 在校期间获得多次奖学金，在第四届全国大学生广告大赛中获
+          </view>
+        </view>
+      </image>
+   </view>
+  </view>
+<view hidden="{{currentTab!==1}}" class="one" bindchange="bindChange">
+    <view class='for_work'>
+       <view class='top_work'>
+          <image src='http://www.datouart.com/upload/20171211/254c265c348d7bca99fe351b82f34533.png' class='box1'>
+            <image src='http://www.datouart.com/upload/20171207/4d4f5f3532a11685a72fbeaf62aedf4c.png' class='box_img'></image>
+                <view class='text'>
+                    <text class='work_name'>《猴子摘桃》</text>
+                    <text class='finish_time'>2017-11-14</text>
+                </view>
+          </image>
+       
+          <image src='http://www.datouart.com/upload/20171211/254c265c348d7bca99fe351b82f34533.png' class='box2'>
+            <image src='http://www.datouart.com/upload/20171207/fb6d1bede0884d53eb9a56b15e28a243.png' class='box_img'></image>
+                <view class='text'>
+                    <text class='work_name'>《猴子摘桃》</text>
+                    <text class='finish_time'>2017-11-14</text>
+                </view>
+          </image>
+       </view>  
+       
+       <view class='top_work'>
+          <image src='http://www.datouart.com/upload/20171211/254c265c348d7bca99fe351b82f34533.png' class='box1'>
+            <image src='http://www.datouart.com/upload/20171207/4d4f5f3532a11685a72fbeaf62aedf4c.png' class='box_img'></image>
+                <view class='text'>
+                    <text class='work_name'>《猴子摘桃》</text>
+                    <text class='finish_time'>2017-11-14</text>
+                </view>
+          </image>
+
+          <image src='http://www.datouart.com/upload/20171211/254c265c348d7bca99fe351b82f34533.png' class='box2'>
+            <image src='http://www.datouart.com/upload/20171207/fb6d1bede0884d53eb9a56b15e28a243.png' class='box_img'></image>
+                <view class='text'>
+                    <text class='work_name'>《猴子摘桃》</text>
+                    <text class='finish_time'>2017-11-14</text>
+                </view>
+          </image>
+        </view>
+    </view>    
+ </view>
+ <view class='footer'>
+   <image src='http://www.datouart.com/upload/20171211/c135a07d0ed04ef7e6f970cc6d858185.png'> <text>请老师指导</text></image>
+ </view>
+</view>

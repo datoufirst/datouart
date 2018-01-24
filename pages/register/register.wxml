@@ -1,0 +1,23 @@
+<image src="{{img1}}" class='topimg'></image>
+<view class='content'>
+  <view class='content_box'>
+   <!-- <image src='http://www.datouart.com/upload/20171212/05a197f35ec94c065031d6bf08ea6782.png'></image> -->
+   
+   <view class='info_put'>
+      <input type='number' maxlength='11' placeholder='请输入手机号' placeholder-style='color:#a46b34' bindinput="listenerPhoneInput" name="mobile"></input>
+      <input type='text' maxlength='4' placeholder='请输入宝宝姓名' placeholder-style='color:#a46b34' bindinput='listenerNameInput' name="name"></input>
+      <input type='number' maxlength='2' placeholder='请输入宝宝年龄' placeholder-style='color:#a46b34' bindinput='listenerAgeInput' name="age"></input>
+      <input style='text' placeholder='请输入所在地区' placeholder-style='color:#a46b34' bindinput='listenerAddresInput' name="city"></input>
+      
+      <view class='button'  data-statu="open" >
+         <image src='../../image/button.png' bindtap='phonenumber'>
+            <text>立即报名</text>
+         </image >
+      </view> 
+      <!-- <image src='../image/button.png' bindtap="powerDrawer" data-statu="open">立即报名</image> -->
+      
+   </view>
+
+  </view>
+</view>
+<image src='{{img2}}' class='img2'></image>

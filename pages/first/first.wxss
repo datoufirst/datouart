@@ -1,0 +1,220 @@
+page{
+  background:url(http://www.datouart.com/upload/20171207/a7de8d04e8d63e15a26d57afbc8c43f6.png);
+}
+
+video{
+  width:100%;
+  height: 400rpx;
+   position: absolute;
+  left:0;
+  top:0;
+
+}
+
+.shade{
+  width:100%;
+  height: 400rpx;
+  background: #7E6C4B;
+   position: relative;
+  font-size: 28rpx;
+
+}
+
+.shade .course{
+ position: absolute;
+ left:250rpx;
+ top:100rpx;
+ color: #fff;
+}
+
+.shade .money{
+ position: absolute;
+ left:300rpx;
+ top:160rpx;
+ color: #fff;
+}
+
+.shade .buy{
+ position: absolute;
+ left:310rpx;
+ top:250rpx;
+ color: #fff;
+ width:140rpx;
+ height: 50rpx;
+ line-height: 50rpx;
+ text-align: center;
+  border-radius: 12rpx;
+ background: #F9C455;
+}
+
+
+
+
+.nav{
+  width:100%;
+  height: 680rpx;
+  /* background: red; */
+  margin-top:400rpx;
+}
+
+.nav-middle{
+  width:94%;
+  height: 100%;
+   /* background: rebeccapurple;  */
+  margin:0 auto;
+}
+
+.nav-middle .details{
+  font-size:34rpx;
+  color:#784C21;
+  font-weight:bold;
+  display: flex;
+  justify-content: center;
+  line-height: 100rpx;
+   /* background: yellow;  */
+}
+
+.nav-middle .nav-middle-bottom{
+  width:100%;
+  height: 550rpx;
+   /* background: blue;  */
+}
+
+.nav-middle .nav-middle-bottom image{
+  width:100%;
+  height: 100%;
+  position: relative;
+}
+
+.nav-middle .nav-middle-bottom .pic-nav{
+  width:600rpx;
+  height: 450rpx;
+   /* background: blue;  */
+  position: absolute;
+  left:50rpx;
+  top:30rpx;
+}
+
+.nav-middle .nav-middle-bottom .pic-nav .first{
+  font-size: 34rpx;
+  color:#784C21;
+  font-weight:bold; 
+  float: left;
+  width:100%;
+  margin-top:20rpx;
+}
+
+.nav-middle .nav-middle-bottom .pic-nav .purpose{
+  font-size: 28rpx;
+  color:#784C21;
+  font-weight:bold; 
+  float: left;
+  width:100%;
+  margin-left:-18rpx;
+  margin-top:16rpx;
+  
+}
+
+.nav-middle .nav-middle-bottom .pic-nav .one{
+  font-size: 26rpx;
+  color:#784C21;
+  float: left;
+  width:100%;
+  margin-top:12rpx;
+  line-height: 40rpx;
+}
+
+
+
+.nav-middle .nav-middle-bottom .pic-nav .two{
+  font-size: 28rpx;
+  color:#784C21;
+  font-weight:bold; 
+  float: left;
+  width:100%;
+  margin-top:20rpx;
+}
+
+
+/* 底部 */
+.footer{
+  width:92%;
+  height:auto;
+  margin: 0 auto;
+}
+
+.footer text{
+  font-size: 26rpx;
+  color:#784C21;
+}
+
+.footer-one{
+  width:100%;
+  height: 300rpx;
+  margin-top:10rpx;
+  /* background: pink; */
+}
+
+.footer-one-left{
+  width:330rpx;
+  height: 300rpx;
+  /* background: blue; */
+  float: left;
+}
+
+.footer-one-left image{
+  width:100%;
+  height: 100%;
+  border-radius: 12rpx;
+  float: left;
+  position: relative;
+}
+
+.footer-one-left .yellow .numberone{
+  width:90%;
+  height: 210rpx;
+  float: left;
+  position: absolute;
+  left:17rpx;
+  top:16rpx;
+}
+
+.footer-one-left .yellow .no1{
+  font-size: 24rpx;
+  position: absolute;
+  left:0;
+  top:230rpx;
+}
+
+.footer-one-left .yellow .name{
+  font-size: 22rpx;
+  position: absolute;
+  left:18rpx;
+  top:260rpx;
+}
+
+.footer-one-left .yellow .time{
+  font-size: 22rpx;
+  position: absolute;
+  left:248rpx;
+  top:260rpx;
+}
+
+.footer-one-left:nth-child(2){
+  float: right;
+}
+
+.footer-one-left:nth-child(4){
+  float: right;
+  margin-top:30rpx;
+}
+
+.footer-one-left:nth-child(3){
+  float: left;
+  margin-top:30rpx;
+}
+
+.footer-one-left:nth-child(5){
+  float: left;
+  margin-top:30rpx;
+}

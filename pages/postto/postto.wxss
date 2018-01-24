@@ -1,0 +1,289 @@
+page{
+  background: url(http://www.datouart.com/upload/20171207/a7de8d04e8d63e15a26d57afbc8c43f6.png);
+}
+.head{
+  width:100%;
+  height: 449rpx;
+  margin-top:40rpx;
+}
+
+.head .head-pic{
+  width:690rpx;
+  height: 100%;
+  /* background: pink; */
+  margin:0 auto;
+}
+
+.head .head-pic image{
+  width:100%;
+  height: 100%;
+  border-radius: 12rpx;
+  position: relative;
+}
+
+.head .head-pic .head-pic-nav{
+  width:654rpx;
+  height: 413rpx;
+  /* background: blue; */
+  position: absolute;
+  left:19rpx;
+  top:17rpx;
+}
+
+.head .head-pic .head-pic-nav image{
+  border-radius: 12rpx;
+}
+
+.head .head-pic .head-pic-nav .shade{
+  width:654rpx;
+  height: 413rpx;
+  background: #fcffe4;
+  position: absolute;
+  left:0;
+  top:0;
+  opacity: 0.8;
+}
+
+.head .head-pic .head-pic-nav .photo{
+  width:137rpx;
+  height: 176rpx;
+  /* background: yellow; */
+  position: absolute;
+  left:254rpx;
+  top:128rpx;
+}
+
+
+
+.head .head-pic .head-pic-nav .photo image{
+  width:137rpx;
+  height: 137rpx;
+  border-radius: 50%;
+  float: left;
+}
+
+.head .head-pic .head-pic-nav .photo text{
+  font-size: 26rpx;
+  float: left;
+  margin-top:13rpx;
+  margin-left:14rpx;
+  font-weight: bold;
+  color: rgb(120,76,33);
+}
+
+.select{
+  width:100%;
+  height: 50rpx;
+  /* background: red; */
+  margin-top:54rpx;
+}
+
+.select .select-nav{
+  width:92%;
+  height: 100%;
+   /* background: pink;  */
+  margin:0 auto;
+}
+
+.select .select-nav .select-nav-left{
+  width:306rpx;
+  height: 100%;
+   /* background: blue;  */
+  float: left;
+}
+
+.select .select-nav .select-nav-left text{
+  font-size: 28rpx;
+  float: left;
+  line-height: 50rpx;
+  color: rgb(164,107,52);
+}
+
+.select-nav-right{
+  width:180rpx;
+  height: 100%;
+    /* background: yellow;   */
+  float: right;
+
+}
+
+.phone_one{
+    display: flex; 
+    position: relative;
+    background:url(http://www.datouart.com/upload/20171207/d4c2e7bd385fe4e4ae964b149915984b.png) center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    justify-content: space-between;
+    border-radius:14rpx;
+    border:0.2rpx solid #f1f1f1;
+    width:100%;
+    height:50rpx;
+    margin:0 auto;
+}
+
+.phone_one image{
+  width:40rpx;
+  height: 40rpx;
+  float: right;
+  margin-right:25rpx;
+  margin-top:6rpx;
+  
+}
+
+.phone_personal{
+    width: 100%;
+     color:#ffffff; 
+    height:50rpx;
+    font-size: 24rpx;
+    line-height:50rpx;
+    text-align: center;
+    
+    font-weight: bold;
+}
+
+.person_box{
+    position: relative;
+    font-size: 24rpx;
+}
+.phone_select{
+    margin-top:0;
+    z-index: 100;
+    position: absolute; 
+}
+.select_one{
+    text-align: center;
+    background:#ffffff;
+    width:170rpx; 
+    height:50rpx;
+    line-height:50rpx;
+    margin:0 5%; 
+    color: #784C21;
+}
+
+.designation{
+  width:92%;
+  height: 114rpx;
+   /* background: red;  */
+  margin:0 auto;
+  margin-top:46rpx;
+}
+
+.designation text{
+  font-size: 28rpx;
+  color:rgb(164,107,52);
+}
+
+.mingc{
+  width: 660rpx;
+  height: 40rpx;
+  border-radius: 14rpx;
+  background: #FEFCEB;
+  font-size: 24rpx;
+  float: left;
+  padding:10rpx 21rpx;
+  margin-top:16rpx;
+  color:rgb(164,107,52);
+}
+
+.synopsis{
+  width:92%;
+  height: 255rpx;
+    /* background: red;   */
+  margin:0 auto;
+  margin-top:40rpx;
+}
+
+.synopsis text{
+  font-size: 28rpx;
+  color: rgb(164,107,52);
+}
+
+.synopsis textarea{
+
+  width:660rpx; 
+  height: 179rpx;
+  margin-top:16rpx;
+  word-break: break-all;
+  border-radius: 14rpx;
+  background: #FEFCEB;
+  font-size:24rpx;
+  padding:20rpx 21rpx;
+  color:rgb(164,107,52);
+}
+
+
+.footer{
+  width:100%;
+  height: 94rpx;
+  margin-top:64rpx;
+}
+.footer button{
+  width:216rpx;
+  height: 60rpx;
+  font-size: 28rpx;
+  background:url(http://www.datouart.com/upload/20171207/d4c2e7bd385fe4e4ae964b149915984b.png) center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 25rpx;
+  line-height: 60rpx;
+  color:rgb(254,254,254);
+  font-weight:600;
+  border:0;
+}
+
+/*授权不成功  */
+.icon{
+  /* border: 1rpx saddlebrown solid; */
+  margin: auto;
+  margin-top: 30rpx
+}
+.top_warn{
+  width: 100%;
+  height: 320rpx;
+  margin: auto;
+  text-align: center;
+  background: #fff
+}
+
+.warn_title{
+  margin-top: 20rpx;
+  font-size: 42rpx;
+  color: #cfcfcf
+}
+.top_warn text{
+  font-size: 32rpx;
+  color: #cfcfcf
+}
+.body_warn{
+  width: 100%;
+  height: 950rpx;
+  background: #fdfaec
+}
+.body_center{
+  width: 90%;
+  height: 950rpx;
+  /* border: 1rpx saddlebrown solid; */
+  margin: auto
+}
+.body_warn image{
+  width: 600rpx;
+  height: 420rpx;
+  margin: auto;
+  text-align: center;
+  display: block
+}
+.body_title{
+  /* border: 1rpx saddlebrown solid; */
+  font-size: 32rpx;
+  color: #cfcfcf;
+  font-weight: 600;
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx
+}
+.body_a{
+  font-size: 32rpx;
+  color: #cfcfcf;
+  margin-top: 40rpx;
+  margin-bottom: 20rpx
+}

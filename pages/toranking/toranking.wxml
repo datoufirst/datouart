@@ -1,0 +1,101 @@
+<view class="nav">
+  <view class="navbar">  
+   <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique" bindtap="navbarTap">{{item}}</text>  
+  </view> 
+</view> 
+<view hidden="{{currentTab!==0}}" class="one">  
+  <view class="one-nav" style="margin-top:39rpx;">
+    <view class="one-left" wx:for="{{newlist}}" wx:for-item="item" wx:for-index="key">
+        <image src="../../image/yellowbg.png" class="bluebackground" bindtap="detailone" data-id='{{item.id}}'>
+          <view class="one-left-top">
+            <image src="{{item.img}}" mode="{{mode}}"></image>
+          </view>
+          <view class="one-left-bottom">
+            <image src="{{item.create_time}}"></image>
+            <view class="one-left-bottom-right">
+              <view class="person">
+                <text class="name">{{item.username}}</text>
+                <!-- <text class="old">{{item.age}}岁</text> -->
+              </view>
+              <text class="write">学画画   {{item.study_age}}</text>
+              <view class="number">
+                <view class="number-left">
+                  <image src="../../image/eye.png"></image>
+                  <text class="eye">{{item.click_num}}</text>
+                </view>
+                <view class="number-right">
+                  <image src="../../image/bluegood.png"></image>
+                  <text class="good">{{item.zan}}</text>
+                </view>
+              </view>
+            </view>
+          </view>
+        </image>
+    </view>
+  </view>
+</view> 
+
+<view hidden="{{currentTab!==1}}" class="one">  
+    <view class="one-nav" style="margin-top:39rpx;">
+     <view class="one-left" wx:for="{{hotlist}}" wx:for-item="item" wx:for-index="key">
+        <image src="../../image/yellowbg.png" class="bluebackground" bindtap="detailone" data-id='{{item.id}}'>
+          <view class="one-left-top">
+            <image src="{{item.img}}" mode="{{mode}}"></image>
+          </view>
+          <view class="one-left-bottom">
+            <image src="{{item.create_time}}"></image>
+            <view class="one-left-bottom-right">
+              <view class="person">
+                <text class="name">{{item.username}}</text>
+                <!-- <text class="old">{{item.age}}岁</text> -->
+              </view>
+              <text class="write">学画画   {{item.study_age}}</text>
+              <view class="number">
+                <view class="number-left">
+                  <image src="../../image/eye.png"></image>
+                  <text class="eye">{{item.click_num}}</text>
+                </view>
+                <view class="number-right">
+                  <image src="../../image/bluegood.png"></image>
+                  <text class="good">{{item.zan}}</text>
+                </view>
+              </view>
+            </view>
+          </view>
+        </image>
+    </view>
+  </view>
+</view>  
+ 
+<view hidden="{{currentTab!==2}}" class="one">  
+  <view class="one-nav" style="margin-top:39rpx;">
+    
+    <view class="one-left" wx:for="{{tonghualist}}" wx:for-item="item" wx:for-index="key">
+        <image src="../../image/yellowbg.png" class="bluebackground" bindtap="detailone" data-id='{{item.id}}'>
+          <view class="one-left-top">
+            <image src="{{item.img}}" mode="{{mode}}"></image>
+          </view>
+          <view class="one-left-bottom">
+            <image src="{{item.create_time}}"></image>
+            <view class="one-left-bottom-right">
+              <view class="person">
+                <text class="name">{{item.username}}</text>
+                <!-- <text class="old">{{item.age}}岁</text> -->
+              </view>
+              <text class="write">学画画   {{item.study_age}}</text>
+              <view class="number">
+                <view class="number-left">
+                  <image src="../../image/eye.png"></image>
+                  <text class="eye">{{item.click_num}}</text>
+                </view>
+                <view class="number-right">
+                  <image src="../../image/bluegood.png"></image>
+                  <text class="good">{{item.zan}}</text>
+                </view>
+              </view>
+            </view>
+          </view>
+        </image>
+    </view>
+  </view>    
+</view>  

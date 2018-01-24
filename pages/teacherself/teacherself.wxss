@@ -1,0 +1,191 @@
+page{
+   background:url(http://www.datouart.com/upload/20171207/a7de8d04e8d63e15a26d57afbc8c43f6.png);
+}
+.body{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.header{
+  width: 100%;
+  height: 292rpx;
+  position: relative;
+  box-shadow: 0px 1px 20px 5px #d9d591;
+}
+.header image{
+  width: 100%;
+  height: 292rpx;
+  position: absolute;
+  left:0;
+  top:0;
+}
+
+.header .header-nav{
+  width:170rpx;
+  height: 233rpx;
+  /* background: red; */
+  position: absolute;
+  left:289rpx;
+  top:30rpx; 
+}
+
+.header .header-nav image{
+  width:100%;
+  height: 170rpx;
+  float: left;
+  border-radius: 50%;
+}
+
+.header .header-nav .name{
+  font-size: 24rpx;
+  float: left;
+  margin-left:36rpx;
+  margin-top:180rpx;
+  color: rgb(133,90,48);
+}
+
+.header .header-nav .from{
+  font-size: 20rpx;
+  float: left;
+  margin-left:36rpx;
+  margin-top:6rpx;
+  color: rgb(133,90,48);
+}
+
+
+
+/*选项卡  */
+.nav{
+      width:100%;
+      height: 78rpx;
+    }
+    .navbar{  
+      width:92%;
+      margin:0 auto;
+      flex: none;  
+      display: flex;  
+      font-size: 28rpx; 
+      font-weight: bold;
+      color: #855a30
+    }  
+    .navbar .item{  
+      flex: auto;  
+      text-align: center;  
+      line-height: 82rpx; 
+    }  
+    .navbar .item.active{  
+      position: relative; 
+      color: #855a30; 
+    }  
+    .navbar .item.active:after{  
+      content: "";  
+      display: block;  
+      position: absolute;  
+      bottom:10rpx;  
+      left: 118rpx;  
+      right: 0;
+      width:100rpx; 
+      height: 4rpx;  
+      background: #855a30;   
+    }
+    .one{
+      width: 92%;
+      height: 690rpx;
+      margin-top: 34rpx;
+    }
+    .bg_content{
+      width: 100%;
+      height: 620rpx;
+    }
+    .bg_content image{
+       width: 100%;
+      height: 620rpx;
+      position: relative
+    }
+    .article{
+      position: absolute;
+      top: 60rpx;
+      left: 60rpx;
+      width: 560rpx;
+      height: 600rpx;
+    }
+    .article .aphorismone{
+      font-size: 26rpx;
+      color: #855a30;
+      float: left;
+      width:100%;
+      line-height: 80rpx;
+    }
+ .for_work{
+   width: 100%;
+   height: 620rpx;
+   margin: auto
+ }
+ .top_work{
+   width: 100%;
+   height: 310rpx;
+ }
+ .box1{
+   width: 330rpx;
+   height: 280rpx;
+   border-radius: 10rpx;
+   float: left;
+   position: relative
+ }
+  .box2{
+   width: 330rpx;
+   height: 280rpx;
+   border-radius: 10rpx;
+   float: right;
+   position: relative
+ }
+.box_img{
+   width: 300rpx;
+   height: 215rpx;
+   position: absolute;
+   z-index: 2;
+   top: 15rpx;
+   left: 15rpx
+}
+
+.text{
+  width: 300rpx;
+  height: 42rpx;
+  margin: auto;
+  color: #fff;
+  font-size: 22rpx;
+  position: absolute;
+  left: 15rpx;
+  bottom: 2rpx;
+  line-height: 40rpx;
+}
+.work_name{
+  float: left
+}
+.finish_time{
+  float: right
+}
+.footer{
+  width: 100%;
+  height: 90rpx;
+  text-align: center;
+  line-height: 90rpx;
+  color: #faf2b0;
+  font-size: 30rpx;
+  font-weight: bold;
+  position: fixed;
+  bottom: 0rpx
+}
+.footer image{
+  width: 100%;
+  height: 90rpx;
+}
+.footer image text{
+  position: absolute;
+  top: 7rpx;
+  left: 300rpx;
+}

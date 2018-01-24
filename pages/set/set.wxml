@@ -1,0 +1,101 @@
+<view class='content'>
+    
+    <view class='content_box'>
+        <view class='content_one'>
+           <view class='small_box'>
+              <view class='photo' bindtap='personal'>
+                <text class='left'>头像</text>
+                <text class='right'>></text>
+              </view>
+              <view class='photo' bindtap='name'>
+                <text class='left'>昵称</text>
+                <text class='right'>></text>
+              </view>
+              <view class='photo' bindtap="powerDrawer" data-statu="open">
+                <text class='left'>性别</text>
+                <text class='right'>></text>
+               
+              </view>
+              <view class='photo' style='border:hidden' bindtap="showDialogBtn">
+                <text class='left'>生日</text>   
+                <text class='right'>></text>
+                 <!-- <view class='hidden_box'></view> -->
+              </view>
+           </view>
+        </view>
+        
+
+        <view class='content_two'>
+           <view class='small_box'>
+               <view class='photo' bindtap='jilu'>
+                <text class='left'>播放记录</text>
+                <text class='right'>></text>
+              </view>
+               <view class='photo' >
+                <text class='left'>帮助与反馈</text>
+                <text class='right'>></text>
+              </view>
+               <view class='photo' style='border:hidden'>
+                <text class='left'>关于大头儿子的故事</text>
+                <text class='right'>></text>
+              </view>
+           </view>
+        </view>
+    </view>
+
+
+  
+<!--弹出框  性别-->
+    <view class="drawer_screen" bindtap="powerDrawer" data-statu="close" wx:if="{{showModalStatus}}"></view>  
+    <!--content-->  
+    <!--使用animation属性指定需要执行的动画-->  
+    <view animation="{{animationData}}" class="drawer_box" wx:if="{{showModalStatus}}">  
+          <!--drawer content-->  
+          <view class="drawer_content"> 
+              <view class='sex_title'>性别 </view>
+                <view class='boy'>
+                  <view class='sex'>男</view>
+                  <view class='chose' bindtap="powerDrawer" data-statu="close" wx:if="{{showModalStatus}}">
+                     <view class='point'></view>
+                  </view>
+                </view>
+                <view class='boy' style='border:hidden'>
+                  <view class='sex'>女</view>
+                  <view class='chose' bindtap="powerDrawer" data-statu="close" wx:if="{{showModalStatus}}">
+                     <view class='point'></view>
+                  </view>
+                </view>
+          </view>  
+    </view>
+
+
+  
+
+<!--弹窗-->
+<view class="modal-mask" bindtap="hideModal" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
+<view class="modal-dialog" wx:if="{{showModal}}">
+  <view class="modal-title">出生日期</view>
+  <view class="modal-content">
+    
+        
+        <picker-view  indicator-class="selected" mask-class="will-select"  style="width: 100%; height: 190rpx;" value="{{value}}" bindchange="bindChange">
+            <picker-view-column>
+            <view wx:for="{{years}}" class='year' >{{item}}年</view>
+            </picker-view-column>
+            <picker-view-column>
+            <view wx:for="{{months}}" class='month'>{{item}}月</view>
+            </picker-view-column>
+            <picker-view-column>
+            <view wx:for="{{days}}" class='day' >{{item}}日</view>
+            </picker-view-column>
+        </picker-view>
+
+
+    
+  </view>
+  <view class="modal-footer">
+    <view class="btn-confirm" bindtap="onConfirm" data-status="confirm" style='background-image:url(../image/success.png)'>完成</view>
+  </view>
+</view>
+
+</view>

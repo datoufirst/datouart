@@ -1,0 +1,157 @@
+<view class="nav">
+  <view class="navbar">  
+   <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique" bindtap="navbarTap">{{item}}</text>  
+  </view> 
+</view> 
+  
+<!--ART课堂-->  
+<view hidden="{{currentTab!==0}}" class="one">  
+
+  <!-- 第一组 -->
+  <view class="one-nav" style="margin-top:39rpx;">
+    <view class="one-left">
+        <image src="http://www.datouart.com/upload/20171207/316d4764f9f587f54c7d95b509209ac5.png">
+          <view class="one-left-top">
+            <image src="{{teacherpic1}}"></image>
+          </view>
+
+          <view class="one-left-bottom">
+            <image src="{{teacherself1}}"></image>
+            <view class="one-left-bottom-right">
+
+              <view class="person">
+                <text class="name">小雨老师</text>
+              </view>
+
+              <text class="write">欢乐幼儿园</text>
+
+              <view class="number">
+                <view class="number-left">
+                  <image src="../../image/eye.png"></image>
+                  <text class="eye">55</text>
+                </view>
+
+                <view class="number-right">
+                  <image src="../../image/bluegood.png"></image>
+                  <text class="good">49</text>
+                </view>
+              </view>
+
+            </view>
+          </view>
+        </image>
+    </view>
+    <view class="one-left" style="margin-left:30rpx;">
+        <image src="http://www.datouart.com/upload/20171207/316d4764f9f587f54c7d95b509209ac5.png">
+            <view class="one-left-top">
+              <image src="{{teacherpic2}}"></image>
+            </view>
+
+            <view class="one-left-bottom">
+              <image src="{{teacherself2}}"></image>
+              <view class="one-left-bottom-right">
+
+                <view class="person">
+                  <text class="name">小张老师</text>
+                </view>
+
+                <text class="write">欢乐幼儿园</text>
+
+                <view class="number">
+                  <view class="number-left">
+                    <image src="../../image/eye.png"></image>
+                    <text class="eye">33</text>
+                  </view>
+
+                  <view class="number-right">
+                    <image src="../../image/bluegood.png"></image>
+                    <text class="good">47</text>
+                  </view>
+                </view>
+
+              </view>
+            </view>
+      </image>
+    </view>
+  </view>
+
+  <!-- 第二组 -->
+  <view class="one-nav" style="margin-top:39rpx;">
+    <view class="one-left">
+        <image src="http://www.datouart.com/upload/20171207/316d4764f9f587f54c7d95b509209ac5.png">
+          <view class="one-left-top">
+            <image src="{{teacherpic3}}"></image>
+          </view>
+
+          <view class="one-left-bottom">
+            <image src="{{teacherself3}}"></image>
+            <view class="one-left-bottom-right">
+
+              <view class="person">
+                <text class="name">小雨老师</text>
+              </view>
+
+              <text class="write">欢乐幼儿园</text>
+
+              <view class="number">
+                <view class="number-left">
+                  <image src="../../image/eye.png"></image>
+                  <text class="eye">32</text>
+                </view>
+
+                <view class="number-right">
+                  <image src="../../image/bluegood.png"></image>
+                  <text class="good">45</text>
+                </view>
+              </view>
+
+            </view>
+          </view>
+        </image>
+    </view>
+    <view class="one-left" style="margin-left:30rpx;">
+        <image src="http://www.datouart.com/upload/20171207/316d4764f9f587f54c7d95b509209ac5.png">
+            <view class="one-left-top">
+              <image src="{{teacherpic4}}"></image>
+            </view>
+
+            <view class="one-left-bottom">
+              <image src="{{teacherself4}}"></image>
+              <view class="one-left-bottom-right">
+
+                <view class="person">
+                  <text class="name">小张老师</text>
+                </view>
+
+                <text class="write">欢乐幼儿园</text>
+
+                <view class="number">
+                  <view class="number-left">
+                    <image src="../../image/eye.png"></image>
+                    <text class="eye">26</text>
+                  </view>
+
+                  <view class="number-right">
+                    <image src="../../image/bluegood.png"></image>
+                    <text class="good">48</text>
+                  </view>
+                </view>
+
+              </view>
+            </view>
+      </image>
+    </view>
+  </view>
+
+</view>
+
+  
+<!--成长日记-->  
+<view hidden="{{currentTab!==1}}" class="one">  
+  正在开发中，敬请期待...
+</view>  
+  
+<!--体验中心-->  
+<view hidden="{{currentTab!==2}}" class="one">  
+ 正在开发中，敬请期待...    
+</view>  

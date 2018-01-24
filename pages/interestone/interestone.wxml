@@ -1,0 +1,107 @@
+<view hidden='{{a}}'>  
+    <!-- 第一部分 -->
+    <view class="two"> 
+      <view class="two-nav">
+        <view class="two-nav-left"> 
+          <image src="{{userimg}}"></image>
+          <text class="name">{{username}}</text>
+          <text class="old">{{age}}岁</text>
+        </view>
+        <view class="two-nav-right">
+          <image src="../../image/eyes.png" class="eye"></image>
+          <text class="pageview">{{click_num}}</text>
+          <!-- <image src="../../image/link.png" class="link"></image> -->
+          <!-- <text class="pageview">{{age}}</text> -->
+          <image src="../../image/good1.png" class="good" ></image>
+          <text class="pageview">{{zan}}</text>
+        </view>
+      </view>
+    </view>
+    <!-- 第二部分 -->
+    <view class="synopsis">
+      <view class="box-picture">
+        <image src="../../image/greenbg.png">
+          <view class="synopsis-top">
+            <image src="{{img}}" mode="{{mode}}"></image>
+          </view>
+          <view class="synopsis-bottom">
+            <view class="synopsis-bottom-top">
+              <text class="title">《{{name}}》</text>
+              <text class="time">{{time}}</text>
+            </view>
+            <view class="synopsis-bottom-bottom">
+              作品简介：{{message}}
+            </view>
+          </view>
+        </image>
+      </view>
+    </view>
+    <!-- 第三部分 --> 
+    <view class="like" wx:for="{{evaluatelist}}" wx:for-item="item" wx:for-index="key">
+      <view class="like-nav">
+        <view class="like-nav-top">
+          <view class="content">
+            <image src="{{item.zan}}" class="child"></image>
+            <view class="content-right">
+              <view class="information">
+                <view>
+                  <view class="name">{{item.update_time}}</view>
+                  <view class="time">{{item.create_time}}</view>
+                </view>
+                <view class="good">{{item.evaluate}}</view>
+              </view>
+              <view class='backto'>回复</view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <!-- 第四部分 -->
+    <view class="another">其他照片</view>
+    <!-- 第一组 -->
+    <view class="one">
+      <view class="one-left" wx:for="{{tonghualist}}" wx:for-item="item" wx:for-index="key">
+          <image src="../../image/greenbg.png" class="baby" bindtap="detailone" data-id='{{item.id}}'>
+            <view class="one-left-top">
+              <image src="{{item.img}}" mode="{{mode}}" style="width:298rpx;height:213rpx;"></image>
+            </view>
+
+            <view class="one-left-bottom">
+              <text class="name">《{{item.name}}》</text>
+              <text class="time">{{item.update_time}}</text>
+            </view>
+          </image>
+      </view>
+    </view>  
+    <!-- 第五部分 -->
+    <view class="comment">
+      <image src="http://www.datouart.com/upload/20171207/fa204310f1090ef56d12d86a2f900e9d.png">
+        <view class="comment-nav">
+          <input type="text" placeholder="发表评论..." placeholder-style="color:#A46B34" name="evaluate" bindinput='mytext'></input>
+          <view class="comment-nav-right">
+           
+            <image src="../../image/goodfoot.png" class="goodfoot" bindtap='zan'></image>
+             <view class='messagefoot' bindtap='Evaluate'>评论</view>
+          </view>
+        </view>
+      </image>
+    </view>
+</view>  
+<!-- 授权不成功 -->
+<view hidden='{{b}}'>
+  <view class='top_warn'>
+    <icon type='warn' size='60' class='icon'></icon>
+    <view>
+       <view class='warn_title'>登录失败</view> 
+       <text>进入大头课堂需要授权，请重新进入并允许授权</text> 
+    </view> 
+  </view>
+  <view class='body_warn'>
+    <view class='body_center'>
+        <view class='body_title'>如何允许微信授权</view>
+        <view class='body_a'>1.在小程序列表中长按“大头儿子学画画”删除之后，重新搜索“大头儿子学画画”进入</view>
+        <image src='../../image/warn.jpg'></image>
+         <view class='body_a'>2.点击进入“大头儿子学画画”小程序之后，将出现以下微信授权页面，点击“允许”</view>
+    </view>
+ </view> 
+</view>

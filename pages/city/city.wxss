@@ -1,0 +1,94 @@
+page{
+  background-image:url(http://www.datouart.com/upload/20171207/a7de8d04e8d63e15a26d57afbc8c43f6.png)
+}
+.content{
+  height: 1200rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+ 
+}
+.content_box{
+  width: 92%;
+  height: 700rpx;
+}
+.header{
+  width: 100%;
+  height: 182rpx;
+}
+.top_title{
+ width: 100%;
+ height: 66rpx;
+ line-height: 66rpx;
+ font-size: 24rpx;
+ color: #a46b34;
+}
+.input_box input{
+  width: 610rpx;
+  height: 80rpx;
+  float: left;
+  margin-left: 20rpx;
+  font-size: 28rpx;
+  color: #8a633c;
+}
+.input_box{
+  width: 100%;
+  height: 80rpx;
+  border-radius: 12rpx;
+  background: #fff;
+  opacity: 0.75
+}
+
+.input_box image{
+  width: 40rpx;
+  height: 56rpx;
+  float: left;
+  margin-top: 15rpx;
+  margin-left: 16rpx;
+}
+.address{
+   width: 610rpx;
+  height: 80rpx;
+  float: left;
+  margin-left: 20rpx;
+  font-size: 28rpx;
+  color: #8a633c;
+  line-height: 80rpx
+}
+.city_group{
+  width: 100%;
+  height: 480rpx;
+} 
+.city{
+  width: 100%;
+  height: 483rpx;
+  background: #fff;
+  opacity: 0.75;
+  margin-top: 16rpx;
+  border-radius: 12rpx
+}
+.city_center{
+  width: 656rpx;
+  height: 483rpx;
+  margin: auto
+}
+.city_bar{
+  width:100%;
+  height: 80rpx;
+  border-bottom: 1rpx solid #cfcfcf
+}
+.left{
+  float: left;
+  color: #8a633c;
+  font-size: 24rpx;
+  line-height: 80rpx
+}
+.right{
+  float: right;
+  font-size: 20rpx;
+  color:#a46b34;
+  line-height: 80rpx
+}

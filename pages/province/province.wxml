@@ -1,0 +1,125 @@
+<view  class="content" >
+  <view class='content_box'>
+    <view class='top_header'>
+       <view class='top_title'>当前位置</view>
+       <view class='input_box' bindtap='getAddress'>
+          <image src='../image/city.png'></image>
+          <view class='address'>{{address.nation}}   {{address.province}}  {{address.city}}    {{address.district}} </view>
+       </view>
+    </view>
+         
+              
+    <view class='header'>
+       <view class='all'>全部地区</view>
+       <view class='bar'>
+         <view class='bar_left'>{{text}}</view>
+         <view class='bar_right'>已选地区</view>
+       </view>
+    </view>
+    <view class='city_group'>
+       <view class='city'>
+         <view class='city_center'>
+                <view class='city_bar' bindtap='city1'>
+                  <view class='left'>安徽</view>
+                </view>
+                <view class='city_bar' bindtap='city2'>
+                  <view class='left'>澳门</view>
+                </view>
+                <view class='city_bar' bindtap='city3'>
+                  <view class='left'>北京</view>
+                </view>
+                <view class='city_bar' bindtap='city4'>
+                  <view class='left'>重庆</view>
+                </view>
+                <view class='city_bar' bindtap='city5'>
+                  <view class='left'>福建</view>
+                </view>
+                <view class='city_bar' bindtap='city6'>
+                  <view class='left'>广东</view>
+                </view>
+                <view class='city_bar' bindtap='city7'>
+                  <view class='left'>甘肃</view>
+                </view>
+                <view class='city_bar' bindtap='city8'>
+                  <view class='left'>广西</view>
+                </view>
+                <view class='city_bar' bindtap='city9'>
+                  <view class='left'>贵州</view>
+                </view>
+                <view class='city_bar' bindtap='city10'>
+                  <view class='left'>河北</view>
+                </view>
+                <view class='city_bar' bindtap='city11'>
+                  <view class='left'>湖北</view>
+                </view>
+                <view class='city_bar' bindtap='city12'>
+                  <view class='left'>黑龙江</view>
+                </view>
+                <view class='city_bar' bindtap='city13'>
+                  <view class='left'>海南</view>
+                </view>
+                <view class='city_bar' bindtap='city14'>
+                  <view class='left'>河南</view>
+                </view>
+                <view class='city_bar' bindtap='city15'>
+                  <view class='left'>湖南</view>
+                </view>
+                <view class='city_bar' bindtap='city16'>
+                  <view class='left'>吉林</view>
+                </view>
+                <view class='city_bar' bindtap='city17'>
+                  <view class='left'>江苏</view>
+                </view>
+                <view class='city_bar' bindtap='city18'>
+                  <view class='left'>江西</view>
+                </view>
+                <view class='city_bar' bindtap='city19'>
+                  <view class='left'>辽宁</view>
+                </view>
+                <view class='city_bar' bindtap='city20'>
+                  <view class='left'>内蒙古</view>
+                </view>
+                <view class='city_bar' bindtap='city21'>
+                  <view class='left'>宁夏</view>
+                </view>
+                <view class='city_bar' bindtap='city22'>
+                  <view class='left'>青海</view>
+                </view>
+                <view class='city_bar' bindtap='city23'>
+                  <view class='left'>四川</view>
+                </view>
+                <view class='city_bar' bindtap='city24'>
+                  <view class='left'>山东</view>
+                </view>
+                <view class='city_bar' bindtap='city25'>
+                  <view class='left'>上海</view>
+                </view>
+                <view class='city_bar' bindtap='city26'>
+                  <view class='left'>陕西</view>
+                </view>
+                <view class='city_bar' bindtap='city27'>
+                  <view class='left'>山西</view>
+                </view>
+                <view class='city_bar' bindtap='city28'>
+                  <view class='left'>天津</view>
+                </view>
+                <view class='city_bar' bindtap='city29'>
+                  <view class='left'>台湾</view>
+                </view>
+                <view class='city_bar' bindtap='city30'>
+                  <view class='left'>西藏</view>
+                </view>
+                <view class='city_bar' bindtap='city31'>
+                  <view class='left'>香港</view>
+                </view>
+                <view class='city_bar' bindtap='city32'>
+                  <view class='left'>新疆</view>
+                </view>
+                <view class='city_bar' style='border:hidden' bindtap='city33'>
+                  <view class='left'>云南</view>
+                </view>
+         </view>
+       </view>
+    </view>
+  </view>
+</view>

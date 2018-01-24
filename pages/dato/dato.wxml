@@ -1,0 +1,403 @@
+<view hidden='{{a}}'>
+    <view class="body">
+      <view class='header'>
+        <image src='{{topbg}}'>
+            <view class='set' bindtap='toset'>设置</view>
+            <view class='center'>
+            <image src='{{avatarUrl}}'></image>
+            </view>
+            <view class='name'>{{nickName}}</view>
+          </image>
+      </view> 
+
+    <view class="nav">
+      <view class="navbar">  
+      <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique" bindtap="navbarTap">{{item}}</text>  
+      </view> 
+    </view> 
+
+        <!-- 一、ART课堂 -->  
+       <view hidden="{{currentTab!==0}}" class="one" style="height:730rpx" bindchange="bindChange"> 
+        <view class='box'>
+            <view class='content'>
+              <view class='cus' bindtap='mine'>
+                  <image src='../../image/greenbg.png'>
+                    <view class='img_con'>
+                        <image src='{{artone}}'></image>
+                        <view class='article_box'>
+                            <view class='bankuai'>第一板块（探险）</view>
+                            <text>1-12集</text>
+                        </view>
+                    </view>  
+                  </image>   
+              </view>
+
+              <view class='cus cus_l' bindtap='moduletwo'>
+                  <image src='../../image/greenbg.png'>
+                    <view class='img_con'>
+                        <image src='{{arttwo}}'></image>
+                        <view class='article_box'>
+                            <view class='bankuai'>第二板块（寻宝）</view>
+                            <text>13-24集</text>
+                        </view>
+                    </view>  
+                  </image>   
+              </view>
+
+              <view class='cus cus_t' bindtap='modulethree'>
+                  <image src='../../image/greenbg.png'>
+                    <view class='img_con'>
+                        <image src='{{artthree}}'></image>
+                        <view class='article_box'>
+                            <view class='bankuai'>第三板块（环游世界）</view>
+                            <text>25-36集</text>
+                        </view>
+                    </view>  
+                  </image>   
+              </view>
+
+              <view class='cus cus_l cus_t' bindtap='modulefour'>
+                  <image src='../../image/greenbg.png'>
+                    <view class='img_con'>
+                        <image src='{{artfour}}'></image>
+                        <view class='article_box'>
+                            <view class='bankuai'>第四板块（星际穿越）</view>
+                            <text>37-48集</text>
+                        </view>
+                    </view>  
+                  </image>   
+              </view>
+
+            </view>  
+          </view> 
+      </view> 
+
+
+
+        <!-- 二、成长日记 -->  
+        <view hidden="{{currentTab!==1}}" class="two" style="height:740rpx">      
+          <!-- 童画 -->    
+          <view class='box2'>
+          <view class='content2'>
+              <!-- 标题 -->
+              <view class='title'>
+                <text class='th'>童画</text> 
+                <text class='more' bindtap='childdraw'>更多 ></text>
+              </view>
+              <!--内容  -->
+               
+               <view wx:if="{{length==0}}">
+                 <view class='tongqu_0'>
+                      <view class='thbg'>
+                          <image src='../../image/yellowbg.png' bindtap="topost">
+                                  <view class='contnet_ac'>
+                                        <image src='{{tonghua2}}'></image>
+                                        <view class='wen'>
+                                          <text class='work'>《{{tonghua2name}}》</text> 
+                                          <text class='date'>{{tonghua2time}}</text>
+                                        </view>
+                                  </view> 
+                            </image>
+                      </view>
+
+                      <view class='thbg cus_l'>
+                          <image src='../../image/yellowbg.png' bindtap="topost">
+                                  <view class='contnet_ac'>
+                                        <image src='{{tonghua2}}'></image>
+                                        <view class='wen'>
+                                          <text class='work'>《{{tonghua2name}}》</text> 
+                                          <text class='date'>{{tonghua2time}}</text>
+                                        </view>
+                                  </view> 
+                            </image>
+                      </view>
+                 </view>  
+               </view>
+
+
+               <view wx:elif="{{length==1}}">
+                <view class='tongqu_1'>
+                    <view class='thbg' wx:for="{{tonghualist}}" wx:for-item="item" wx:for-index="key">
+                      <image src='../../image/yellowbg.png' bindtap="detailone" data-id='{{item.id}}' data-userimg='{{item.create_time}}' data-username='{{item.username}}'  data-zan='{{item.zan}}' data-workimg='{{item.img}}' data-workname='{{item.name}}' data-message='{{item.message}}' data-watch='{{item.click_num}}' data-age='{{item.age}}' data-time="{{item.update_time}}">
+                              <view class='contnet_ac'>
+                                    <image src='{{item.img}}'></image>
+                                    <view class='wen'>
+                                      <text class='work'>《{{item.name}}》</text> 
+                                      <text class='date'>{{item.update_time}}</text>
+                                    </view> 
+                              </view> 
+                        </image>
+                   </view>
+
+                    <view class='thbg cus_l'>
+                      <image src='../../image/yellowbg.png' bindtap="topost">
+                              <view class='contnet_ac'>
+                                    <image src='{{tonghua2}}'></image>
+                                    <view class='wen'>
+                                      <text class='work'>《{{tonghua2name}}》</text> 
+                                      <text class='date'>{{tonghua2time}}</text>
+                                    </view>
+                              </view> 
+                        </image>
+                    </view>        
+                </view>
+               </view>
+
+
+               <view wx:if="{{length>1}}">
+                  <view class='tonghua'>
+                      <view class='ths' wx:for="{{tonghualist}}" wx:for-item="item" wx:for-index="key">
+                            <image src='../../image/yellowbg.png' bindtap="detailone" data-id='{{item.id}}' data-userimg='{{item.create_time}}' data-username='{{item.username}}'  data-zan='{{item.zan}}' data-workimg='{{item.img}}' data-workname='{{item.name}}' data-message='{{item.message}}' data-watch='{{item.click_num}}' data-age='{{item.age}}' data-time="{{item.update_time}}">
+                                    <view class='contnet_ac'>
+                                          <image src='{{item.img}}'></image>
+                                          <view class='wen'>
+                                            <text class='work'>《{{item.name}}》</text> 
+                                            <text class='date'>{{item.update_time}}</text>
+                                          </view> 
+                                    </view> 
+                              </image>
+                        </view>
+                      </view>
+    
+                  </view> 
+           </view>
+          </view>
+
+          <!--童趣  -->
+           <view class='box2'>
+          <view class='content2'>
+              <!-- 标题 -->
+              <view class='title'>
+                <text class='th'>童趣</text> 
+                <text class='more' bindtap='fun'>更多 ></text>
+              </view>
+              <!--内容  -->
+               
+               <view wx:if="{{length2==0}}">
+                 <view class='tongqu_0'>
+                      <view class='thbg'>
+                          <image src='../../image/greenbg.png' bindtap="topost" >
+                                  <view class='contnet_ac'>
+                                        <image src='{{tonghua2}}'></image>
+                                        <view class='wen'>
+                                          <text class='work'>《{{tonghua2name}}》</text> 
+                                          <text class='date'>{{tonghua2time}}</text>
+                                        </view>
+                                  </view> 
+                            </image>
+                      </view>
+
+                      <view class='thbg cus_l'>
+                          <image src='../../image/greenbg.png' bindtap="topost">
+                                  <view class='contnet_ac'>
+                                        <image src='{{tonghua2}}'></image>
+                                        <view class='wen'>
+                                          <text class='work'>《{{tonghua2name}}》</text> 
+                                          <text class='date'>{{tonghua2time}}</text>
+                                        </view>
+                                  </view> 
+                            </image>
+                      </view>
+                 </view>  
+               </view>
+
+               <view wx:elif="{{length2==1}}">
+                <view class='tongqu_1'>
+                    <view class='thbg' wx:for="{{tonghqulist}}" wx:for-item="item" wx:for-index="key">
+                      <image src='../../image/greenbg.png' bindtap="interestone" data-id='{{item.id}}' data-userimg='{{item.create_time}}' data-username='{{item.username}}'  data-zan='{{item.zan}}' data-workimg='{{item.img}}' data-workname='{{item.name}}' data-message='{{item.message}}' data-watch='{{item.click_num}}' data-age='{{item.age}}' data-time="{{item.update_time}}">
+                              <view class='contnet_ac'>
+                                    <image src='{{item.img}}'></image>
+                                    <view class='wen'>
+                                      <text class='work'>《{{item.name}}》</text> 
+                                      <text class='date'>{{item.update_time}}</text>
+                                    </view> 
+                              </view> 
+                        </image>
+                   </view>
+
+                    <view class='thbg cus_l'>
+                      <image src='../../image/greenbg.png'>
+                              <view class='contnet_ac'>
+                                    <image src='{{tonghua2}}' bindtap='topost'></image>
+                                    <view class='wen'>
+                                      <text class='work'>《{{tonghua2name}}》</text> 
+                                      <text class='date'>{{tonghua2time}}</text>
+                                    </view>
+                              </view> 
+                        </image>
+                    </view>        
+                </view>
+               </view>
+
+
+               <view wx:if="{{length2>1}}">
+                  <view class='tonghua'>
+                      <view class='ths' wx:for="{{tonghqulist}}" wx:for-item="item" wx:for-index="key">
+                            <image src='../../image/greenbg.png' bindtap="interestone" data-id='{{item.id}}' data-userimg='{{item.create_time}}' data-username='{{item.username}}'  data-zan='{{item.zan}}' data-workimg='{{item.img}}' data-workname='{{item.name}}' data-message='{{item.message}}' data-watch='{{item.click_num}}' data-age='{{item.age}}' data-time="{{item.update_time}}">
+                                    <view class='contnet_ac'>
+                                          <image src='{{item.img}}'></image>
+                                          <view class='wen'>
+                                            <text class='work'>《{{item.name}}》</text> 
+                                            <text class='date'>{{item.update_time}}</text>
+                                          </view> 
+                                    </view> 
+                              </image>
+                        </view>
+                      </view>
+    
+                  </view> 
+           </view>
+          </view>
+
+        </view>  
+
+        <!--三、体验中心  -->
+      <view hidden="{{currentTab!==2}}" class="three">  
+          <view class='selecity'>
+              <image src='../../image/citybg.png'>
+                <view class='tools_box'>
+                  <view class='city'>
+                      <text class='address'>选择地区</text>
+                      <view class='already'>杭州<image src='../../image/select.jpg'></image></view>
+                  </view>
+                  <view class='city_cont'>
+                    <view class='cont1'>
+                        <view class='tool' bindtap="education">
+                          <image src='../../image/sc.png'></image>
+                          <view>学校</view>
+                        </view>
+                        <view class='tool' bindtap='organization'>
+                          <image src='../../image/teach.png'></image>
+                          <view>培训机构</view>
+                        </view>
+                        <view class='tool'>
+                          <image src='../../image/home.png'></image>
+                          <view>社区</view>
+                        </view>
+                        <view class='tool'>
+                          <image src='../../image/fun.png'></image>
+                          <view>乐园</view>
+                        </view>
+                    </view>
+                    
+                    <view class='cont2'>
+                        <view class='tool'>
+                          <image src='../../image/shop.png'></image>
+                          <view>商场</view>
+                        </view>
+                        <view class='tool'>
+                          <image src='../../image/g.png'></image>
+                          <view>户外体验</view>
+                        </view>
+                        <view class='tool'>
+                          <image src='../../image/hotal.png'></image>
+                          <view>酒店</view>
+                        </view>
+                        <view class='tool'>
+                          <image src='../../image/duo.png'></image>
+                          <view>更多</view>
+                        </view>
+                    </view>
+
+                  </view>
+                </view>
+              </image>  
+          </view>
+
+          <!--精选活动  -->
+          <view class='jinxan'>
+            <view class='jx_title'>
+              <text class='small_title'>精选活动</text>
+              <text class='more_title'></text> 
+            </view>
+            <view class='jx_cont jx_l'>
+              <image src='../../image/active_bg.png'>
+                <image src='{{active1img}}'></image>
+              </image>
+            </view>
+            <view class='jx_cont jx_r'>
+              <image src='../../image/active_bg.png'>
+                <image src='{{active2img}}'></image>
+              </image>
+            </view>
+          </view>
+          <!--end精选活动  -->
+          
+          <!--明星老师  -->
+          <view class='jinxan '>
+            <view class='jx_title'>
+                <text class='small_title'>明星老师</text>
+                <text class='more_title'></text>
+            </view>
+            <view class='teacher_cont'>
+                  <view class='teacher' wx:for="{{allteacher}}" wx:for-item="item" wx:for-index="key">
+                      <view class='te_photo' bindtap='teacher' data-id='{{item.openid}}'>
+                        <image src='{{item.imgId[0]}}'></image>
+                      </view>
+                      <view class='t_name'>{{item.name}}</view>
+                      <view class='t_address'>{{item.teacherschool}}</view>
+                  </view>
+                  
+            </view>
+          </view>
+
+      </view>  
+            
+        <!--四、我的消息  -->
+        <view hidden="{{currentTab!==3}}" class="four" style="height:730rpx"> 
+            <view class='mynews_content'>
+              <view class='news_con'>
+                  <view class='news1' bindtap='zan' >
+                    <view class='news_photo'>
+                      <image src='../../image/zan.png'></image>
+                    </view>
+                    <text>赞</text>
+                  </view>
+                  <view class='news1'>
+                    <view class='news_photo'>
+                      <image src='../../image/dis.png'></image>
+                    </view>
+                    <text>评论</text>
+                    <view ></view>
+                  </view>
+                  <view class='news1' >
+                    <view class='news_photo'>
+                      <image src='../../image/active.png'></image>
+                    </view>
+                    <text>我的活动</text>
+                    
+                  </view>
+                  <view class='news2' >
+                      <view class='news_photo'>
+                      <image src='../../image/tz.png'></image>
+                    </view>
+                    <text>通知</text>
+                    <view></view>
+                  </view>
+              </view>
+            </view>
+        </view>
+
+    </view>
+</view>
+
+<!-- 授权不成功 -->
+<view hidden='{{b}}'>
+  <view class='top_warn'>
+    <icon type='warn' size='60' class='icon'></icon>
+  
+    <view>
+       <view class='warn_title'>登录失败</view> 
+       <text>进入大头课堂需要授权，请重新进入并允许授权</text> 
+    </view> 
+  </view>
+
+  <view class='body_warn'>
+    <view class='body_center'>
+        <view class='body_title'>如何允许微信授权</view>
+        <view class='body_a'>1.在小程序列表中长按“大头儿子学画画”删除之后，重新搜索“大头儿子学画画”进入</view>
+        <image src='../../image/warn.jpg'></image>
+         <view class='body_a'>2.点击进入“大头儿子学画画”小程序之后，将出现以下微信授权页面，点击“允许”</view>
+    </view>
+ </view> 
+</view>

@@ -1,0 +1,31 @@
+
+    <video src="{{url}}"></video>
+      <view class="nav">
+        <view class="nav-middle">
+          <text class="details">详情</text>
+          <view class="nav-middle-bottom">
+            <image src="http://www.datouart.com/upload/20171211/4b014d3c9e76f664a2d70eba0b81b182.png?random=">
+              <view class="pic-nav">
+                <text class="first">{{title}}</text>
+                <text class="purpose">{{titles}}</text>
+                <text class="one">{{relevant}}</text>
+              </view>
+            </image>
+          </view>
+        </view>
+      </view>
+
+<!-- 相关视频 -->
+<view class="footer">
+  <text>相关视频</text>
+  <view class="footer-one" >
+    <view class="footer-one-left" bindtap="one"  wx:for="{{videoList}}" wx:for-item="row"  data-url="{{row.url}}" data-title="{{row.title}}" data-relevant="{{row.relevant}}" data-id="{{row.id}}" data-titles="{{row.titles}}" data-sj='{row.sj}}' data-money="{{row.money}}">
+      <image src="http://www.datouart.com/upload/20171207/63f054e1dbd69528331afe9689b9b10c.png" class="yellow">
+        <image src="{{row.imgId}}" class="numberone"></image>
+        <text class="no1">{{row.titles}}</text>
+        <text class="name">{{row.title}}</text>
+        <text class="time">2分钟</text>  
+      </image>
+    </view>
+  </view>
+</view>

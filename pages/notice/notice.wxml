@@ -1,0 +1,43 @@
+<view class="content" >
+     <view class='notice_box'>
+         <view class='notice_content'>
+
+            <view class='notice_bar'>
+              <image src='../../image/tz.png'></image>
+              <view class='notice_center'>
+                <view class='top'>系统公告</view>
+                <view class='bottom'>大头ART更新了，迅速了解新功能</view>
+              </view>
+              <view class='time'>今天11：30</view>
+            </view>
+
+            <view class='notice_bar'>
+              <image src='../../image/tz.png'></image>
+              <view class='notice_center'>
+                <view class='top'>系统公告</view>
+                <view class='bottom'>大头ART更新了，迅速了解新功能</view>
+              </view>
+              <view class='time'>今天11：30</view>
+            </view>
+
+            <view class='notice_bar'>
+               <image src='../../image/tz.png'></image>
+              <view class='notice_center'>
+                <view class='top'>系统公告</view>
+                <view class='bottom'>大头ART更新了，迅速了解新功能</view>
+              </view>
+              <view class='time'>今天11：30</view>
+            </view>
+
+            <view class='notice_bar' style='border:hidden'>
+              <image src='../../image/tz.png'></image>
+              <view class='notice_center'>
+                <view class='top'>系统公告</view>
+                <view class='bottom'>大头ART更新了，迅速了解新功能</view>
+              </view>
+              <view class='time'>今天11：30</view>
+            </view>
+            
+         </view>
+     </view>
+</view>

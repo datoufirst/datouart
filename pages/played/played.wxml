@@ -1,0 +1,48 @@
+<view class="content">
+   <view class='content_box'>
+      <view class='week'>
+         <view class='title_week'>一周以内</view>
+         <view class='history'>
+            <image src='../image/played.png'></image>
+            <view class='history_content'>
+                 <view class='played_title'>第一板块  探险</view>
+                 <view class='played_title'>第四集《梯子叔叔》</view>
+                 <view class='stop_time'>观看到02：10</view>
+            </view>
+         </view>
+         <view class='history'>
+            <image src='../image/played.png'></image>
+            <view class='history_content'>
+                 <view class='played_title'>第一板块  探险</view>
+                 <view class='played_title'>第四集《梯子叔叔》</view>
+                 <view class='stop_time'>观看到02：10</view>
+            </view>
+         </view>
+         <view class='title_week'>更早</view>
+         <view class='history'>
+            <image src='../image/played.png'></image>
+            <view class='history_content'>
+                 <view class='played_title'>第一板块  探险</view>
+                 <view class='played_title'>第四集《梯子叔叔》</view>
+                 <view class='stop_time'>观看到02：10</view>
+            </view>
+         </view>
+         <view class='history'>
+            <image src='../image/played.png'></image>
+            <view class='history_content'>
+                 <view class='played_title'>第一板块  探险</view>
+                 <view class='played_title'>第四集《梯子叔叔》</view>
+                 <view class='stop_time'>观看到02：10</view>
+            </view>
+         </view>
+         <view class='history bot'>
+            <image src='../image/played.png'></image>
+            <view class='history_content'>
+                 <view class='played_title'>第一板块  探险</view>
+                 <view class='played_title'>第四集《梯子叔叔》</view>
+                 <view class='stop_time'>观看到02：10</view>
+            </view>
+         </view>
+      </view>
+   </view>
+</view>

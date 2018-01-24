@@ -1,0 +1,82 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/dato/dato",
+    "pages/school/school",
+    "pages/active/active",
+    "pages/tofairy/tofairy",
+    "pages/fun/fun",
+    "pages/smallvideo/smallvideo",
+    "pages/starteacher/starteacher",
+    "pages/teacherself/teacherself",
+    "pages/activeinfo/activeinfo",
+    "pages/teacher/teacher",
+    "pages/myactive/myactive",
+    "pages/mine/mine",
+    "pages/moduletwo/moduletwo",
+    "pages/toranking/toranking",
+    "pages/interesting/interesting",
+    "pages/detailone/detailone",
+    "pages/interestone/interestone",
+    "pages/post/post",
+    "pages/register/register",
+    "pages/education/education",
+    "pages/name/name",
+    "pages/city/city",
+    "pages/province/province",
+    "pages/zan/zan",
+    "pages/adviess/adviess",
+    "pages/notice/notice",
+    "pages/played/played",
+    "pages/set/set",
+    "pages/area/area",
+    "pages/organization/organization",
+    "pages/privilege/privilege",
+    "pages/first/first",
+    "pages/one/one",
+    "pages/postto/postto"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "大头儿子学画画",
+    "navigationBarTextStyle": "#fff"
+  },
+  "tabBar": {
+    "selectedColor": "#fff",
+    "color": "#e7d296",
+    "backgroundColor": "#9c6f43",
+    "borderStyle":"#9c6f43",
+    "list": [
+      {
+        "selectedIconPath": "image/children.png",
+        "iconPath": "image/children.png",
+        "text": "首页",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "selectedIconPath": "image/bus.png",
+        "iconPath": "image/bus.png",
+        "text": "活动",
+        "pagePath": "pages/active/active"
+      },
+      {
+        "selectedIconPath": "image/post.png",
+        "iconPath": "image/post.png",
+        "text": "大头课堂",
+        "pagePath": "pages/dato/dato"
+      },
+      {
+        "pagePath": "pages/post/post",
+        "text": "发布照片",
+        "iconPath": "image/book.png",
+        "selectedIconPath": "image/book.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

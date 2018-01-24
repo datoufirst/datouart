@@ -1,0 +1,47 @@
+<view  class="content" >
+  <view class='content_box'>
+    <view class='header'>
+       <text>全部地区</text>
+       <view class='bar'>
+         <view class='bar_left'>{{text}}</view>
+         <view class='bar_right'>已选地区</view>
+       </view>
+    </view>
+    <view class='city_group'>
+       <view class='city'>
+         <view class='city_center'>
+                <view class='city_bar' bindtap='city1'>
+                  <view class='left'>湖州</view>
+                </view>
+                <view class='city_bar' bindtap='city2'>
+                  <view class='left'>金华</view>
+                </view>
+                <view class='city_bar' bindtap='city3'>
+                  <view class='left'>嘉兴</view>
+                </view>
+                <view class='city_bar' bindtap='city4'>
+                  <view class='left'>丽水</view>
+                </view>
+                <view class='city_bar' bindtap='city5'>
+                  <view class='left'>宁波</view>
+                </view>
+                <view class='city_bar' bindtap='city6'>
+                  <view class='left'>衢州</view>
+                </view>
+                <view class='city_bar' bindtap='city7'>
+                  <view class='left'>绍兴</view>
+                </view>
+                <view class='city_bar' bindtap='city8'>
+                  <view class='left'>台州</view>
+                </view>
+                <view class='city_bar' bindtap='city9'>
+                  <view class='left'>温州</view>
+                </view>
+                <view class='city_bar' style='border:hidden' bindtap='city10'>
+                  <view class='left'>舟山</view>
+                </view>
+         </view>
+       </view>
+    </view>
+  </view>
+</view>

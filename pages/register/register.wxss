@@ -1,0 +1,156 @@
+page{
+ background: #fef485
+ 
+}
+.topimg{
+  width: 100%;
+  height: 700rpx
+}
+.content{
+  height: 500rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.content_box{
+  width:100%;
+  height: 100%;
+  margin: auto
+}
+.content_box image{
+  display: block;
+  width: 100%rpx;
+  height: 310rpx;
+  margin-left: 70rpx;
+  margin-top: 50rpx
+}
+.info_put{
+  width: 555rpx;
+  height: 490rpx;
+  margin: auto;
+  
+}
+.info_put input{
+  width: 515rpx;
+  height: 72rpx;
+  background: #fff;
+  opacity: 0.75;
+  border-radius: 12rpx;
+  margin-bottom: 34rpx;
+  padding: 0 20rpx;
+  font-size: 28rpx;
+  color: #a46b34
+}
+
+
+.info_put .button{
+  width: 555rpx;
+  height: 76rpx;
+  border-radius: 12rpx;
+  position: relative;
+}
+
+.info_put .button image{
+  width: 555rpx;
+  height: 76rpx;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.info_put .button image text{
+  font-size: 28rpx;
+  color: #fff;
+  position: absolute;
+  left: 216rpx;
+  top:20rpx;
+  
+
+}
+
+
+
+
+/*弹窗  */
+
+/*mask*/  
+.drawer_screen {  
+  width: 100%;  
+  height: 100%;  
+  position: fixed;  
+  top: 0;  
+  left: 0;  
+  z-index: 1000;  
+  background: #000;  
+  opacity: 0.5;  
+  overflow: hidden;  
+}  
+  
+/*content*/  
+.drawer_box {  
+  width: 552rpx;  
+  overflow: hidden;  
+  position: fixed;  
+  top: 334rpx;  
+  left: 98rpx;  
+  z-index: 1001;  
+  background: #FAFAFA;  
+  border-radius: 3px;  
+}  
+.drawer_content {  
+  height: 371rpx; 
+  position: relative
+}  
+
+.ok image{
+  width: 98rpx;
+  height: 98rpx;
+  position: absolute;
+  left:150rpx;
+  display: block
+}
+.sucess{
+  width: 100%;
+  height: 100rpx;
+  text-align: center;
+  font-size: 44rpx;
+  color: #a46b34;
+  position: absolute;
+  top: 160rpx
+}
+  
+.btn_ok{  
+ width: 226rpx;
+ height: 77rpx;
+ font-size: 28rpx;
+ color: #fff;
+ margin: auto;
+ background: no-repeat;
+ background-size: 100%;
+ text-align: center;
+ line-height: 77rpx;
+ position: absolute;
+ bottom: 50rpx;
+ left: 167rpx;
+
+}  
+.btn_ok image{
+  width: 226rpx;
+  height: 77rpx;
+  position: absolute;
+  right: 0;
+  bottom: 0
+}
+.btn_ok image text{
+  position: absolute;
+  top: 5rpx;
+  left: 80rpx
+}  
+
+.img2{
+  width: 100%;
+  height: 500rpx
+}

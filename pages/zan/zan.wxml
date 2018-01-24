@@ -1,0 +1,20 @@
+<view class='content'>
+   <view class='zan_content'>
+      <view class='info' wx:for='{{zanlist}}'>
+         <image src='{{item.shop_id}}'></image>
+         <view class='center_content'>
+           <view class='top'>{{item.ce}}</view>
+           <view class='bottom'>赞了你的《猴子摘桃》</view>
+         </view>
+         <view class='time'>今天{{item.create_time}}</view>
+      </view>
+      
+   </view>
+ </view>
+
+
+
+ <view class="weui-loadmore" hidden="{{isHideLoadMore}}">
+    <view class="weui-loading"></view>
+    <view class="weui-loadmore__tips">正在加载</view>
+  </view>

@@ -1,0 +1,112 @@
+        <!-- 轮播 -->
+        <swiper class="swiper" autoplay='true' indicator-dots="true"  indicator-color="#f2a03f" indicator-active-color='green' circular='true'  interval="4000" duration="800">
+          <swiper-item wx:for="{{arrimg}}" > 
+              <image src='{{item.imgId[0]}}'  class="slide-image"></image>
+          </swiper-item> 
+        </swiper>
+      <!-- 童画 -->
+      <view class="tofairy" style='margin-top:10rpx'>
+        <view class="tofairy-nav">
+          <view class="tofairy-nav-write">
+            <text class="write1">童画</text>
+            <text class="write2" style="float:right" bindtap="toast">更多 > </text>
+          </view>
+        </view>
+      </view>  
+       <view class="one-nav">
+          <view class="one-left" wx:for="{{tonghualist}}" wx:for-item="item" wx:for-index="key">
+          <image src="../../image/yellowbg.png" class="bluebackground" bindtap="detailone" data-id='{{item.id}}'>
+              <view class="one-left-top">
+                <image src="{{item.img}}" mode="{{mode}}"></image>
+              </view>
+              <view class="one-left-bottom">
+              <image src="{{item.create_time}}"></image>
+              <view class="one-left-bottom-right">
+                <view class="person">
+                  <text class="name">{{item.username}}</text>
+                </view>
+                <text class="write">学画画   {{item.study_age}}</text>
+                <view class="number">
+                  <view class="number-left">
+                    <image src="../../image/eye.png"></image>
+                    <text class="eye">{{item.click_num}}</text>
+                  </view>
+                  <view class="number-right">
+                    <image src="../../image/bluegood.png"></image>
+                    <text class="good">{{item.zan}}</text>
+                  </view>
+                </view>
+              </view>
+            </view>
+          </image>
+        </view>
+      </view> 
+      <!--童趣  -->
+       <view class="tofairy" style='margin-top:20rpx'>
+        <view class="tofairy-nav">
+          <view class="tofairy-nav-write">
+            <text class="write1">童趣</text>
+            <text class="write2" style="float:right" bindtap="interest">更多 > </text>
+          </view>
+        </view>
+      </view> 
+       <view class="one-nav" style='margin-top:10rpx'>
+          <view class="one-left" wx:for="{{tongqulist}}" wx:for-item="item" wx:for-index="key">
+          <image src="../../image/greenbg.png" class="bluebackground" bindtap="interestone" data-id='{{item.id}}' data-userimg='{{item.update_time}}' data-username='{{item.username}}'  data-zan='{{item.zan}}' data-img='{{item.img}}' data-name='{{item.name}}' data-message='{{item.message}}' data-click_num='{{item.click_num}}' data-age='{{item.age}}' data-time="{{item.update_time}}">
+              <view class="one-left-top">
+                <image src="{{item.img}}" mode="{{mode}}"></image>
+              </view>
+              <view class="one-left-bottom">
+              <image src="{{item.create_time}}"></image>
+              <view class="one-left-bottom-right">
+                <view class="person">
+                  <text class="name">{{item.username}}</text>
+                  <!-- <text class="old">{{item.age}}岁</text> -->
+                </view>
+                <text class="write">学画画   {{item.study_age}}</text>
+                <view class="number">
+                  <view class="number-left">
+                    <image src="../../image/eye.png"></image>
+                    <text class="eye">{{item.click_num}}</text>
+                  </view>
+                  <view class="number-right">
+                    <image src="../../image/bluegood.png"></image>
+                    <text class="good">{{item.zan}}</text>
+                  </view>
+                </view>
+              </view>
+            </view>
+          </image>
+        </view>
+      </view> 
+      <!-- 近期活动 -->
+      <view class="active">
+        <view class="active-nav">
+          <view class="active-nav-top">
+            <text class="recent">近期活动</text>
+            <text class="many" bindtap='moeractive'> </text>
+          </view>
+
+          <view class="box-nav-one" wx:for="{{activelist}}" wx:for-item="item" wx:for-index="key">
+            <image src="../../image/activebg.png" bindtap='join' data-id='{{item.activity_id}}' data-topimg='{{item.imgId2}}' data-botimg='{{item.imgId3}}' data-status='{{item.status}}'>
+              <view class="box-nav-one-left" >
+                <image src="{{item.imgId[0]}}"></image>
+              </view>
+              <view class="box-nav-one-right">
+                <text class="active">{{item.title}}</text>
+                <text class="active-info">{{item.relevant}}</text>
+                <text class="active-time">{{item.times}}</text>
+                <view class='btn'>
+                      <image src='../../image/success.png'>
+                       <view>立即报名</view>
+                      </image>
+                    </view>
+              </view>
+            </image>
+          </view>
+        </view>
+      </view>
+
+
+
+

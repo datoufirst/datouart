@@ -1,0 +1,52 @@
+<!-- 第一组 -->
+<view class="box">
+  <view class="box-nav">
+    <!-- 第一组 -->
+    <view class="box-nav-one">
+      <image src="http://www.datouart.com/upload/20171207/6d34cd370de842e49fb446bf7be3a1b4.png">
+        <view class="box-nav-one-left">
+          <image src="http://www.datouart.com/upload/20171207/1b4f29bf4a1c7eacb45bf7eb7cc5e5a6.png"></image>
+        </view>
+
+        <view class="box-nav-one-right">
+          <text class="active">XXXX 亲子活动开始啦活动开始</text>
+          <text class="active-time">11.7-11.9</text>
+          <text class="unit">主办单位</text>
+          <text class="school">欢乐幼儿园</text>
+        </view>
+      </image>
+    </view>
+
+    <!-- 第二组 -->
+    <view class="box-nav-one">
+      <image src="http://www.datouart.com/upload/20171207/6d34cd370de842e49fb446bf7be3a1b4.png">
+        <view class="box-nav-one-left">
+          <image src="http://www.datouart.com/upload/20171207/1b4f29bf4a1c7eacb45bf7eb7cc5e5a6.png"></image>
+        </view>
+
+        <view class="box-nav-one-right">
+          <text class="active">XXXX 亲子活动开始啦活动开始</text>
+          <text class="active-time">11.7-11.9</text>
+          <text class="unit">主办单位</text>
+          <text class="school">欢乐幼儿园</text>
+        </view>
+      </image>
+    </view>
+
+    <!-- 第三组 -->
+    <view class="box-nav-one">
+      <image src="http://www.datouart.com/upload/20171207/6d34cd370de842e49fb446bf7be3a1b4.png">
+        <view class="box-nav-one-left">
+          <image src="http://www.datouart.com/upload/20171207/1b4f29bf4a1c7eacb45bf7eb7cc5e5a6.png"></image>
+        </view>
+
+        <view class="box-nav-one-right">
+          <text class="active">XXXX 亲子活动开始啦活动开始</text>
+          <text class="active-time">11.7-11.9</text>
+          <text class="unit">主办单位</text>
+          <text class="school">欢乐幼儿园</text>
+        </view>
+      </image>
+    </view>
+  </view>
+</view>

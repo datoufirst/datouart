@@ -1,0 +1,23 @@
+<view class='top_content'>
+    <video src="{{url}}" hidden='{{none}}'></video> 
+    <view class="shade" hidden='{{block}}'>
+      <view class='topopac'></view>
+      <text class="purchase">购买才可以观看视频哦!</text>
+      <text class="money">课程￥{{money}}</text>
+      <view class="buy" bindtap='tobuy'>购买课程</view>
+    </view>
+</view>
+ <view class="nav">
+        <view class="nav-middle">
+          <text class="details">详情</text>
+          <view class="nav-middle-bottom">
+            <image src="http://www.datouart.com/upload/20171211/4b014d3c9e76f664a2d70eba0b81b182.png?random=">
+              <view class="pic-nav">
+                <text class="first">{{title}}</text>
+                <text class="purpose">{{titles}}</text>
+                <text class="one">{{relevant}}</text>
+              </view>
+            </image>
+          </view>
+        </view>
+      </view>

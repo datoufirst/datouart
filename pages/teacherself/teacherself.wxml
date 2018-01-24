@@ -1,0 +1,81 @@
+<view class="body" >
+  <view class='header'>
+   <image src='{{bgtop}}'>
+       <view class="header-nav">
+          <image src="{{teacher1}}"></image>
+          <text class="name">小雨老师</text>
+          <text class="from">欢乐幼儿园</text>
+       </view>
+    </image>
+  </view>
+
+  <!--选项卡  -->
+  <view class="nav">
+    <view class="navbar">  
+      <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique" bindtap="navbarTap">{{item}}
+      </text>  
+    </view> 
+  </view> 
+
+
+  <!-- 相关作品 -->
+  <view hidden="{{currentTab!==0}}" class="one" bindchange="bindChange" >
+    <view class='bg_content'>
+      <image src='http://www.datouart.com/upload/20171211/4b014d3c9e76f664a2d70eba0b81b182.png?random="'>
+          <view class='article'>
+            <text class="aphorismone">1.艺术，让生活更美好。</text>
+            <text class="aphorismone">2.学画画，不一定只是为了做一名画家。</text>
+            <text class="aphorismone">3.我们重视技术的操练，更重视美感的创造。</text>
+            <text class="aphorismone">4.用绘画艺术，记录孩子们的创意灵感。</text>
+            <text class="aphorismone">5.如果在画画中获得了快乐，那么一切就都值得。</text>
+
+          </view>
+        </image>
+    </view>
+    </view>
+    <view hidden="{{currentTab!==1}}" class="one" bindchange="bindChange">
+      <view class='for_work'>
+        <view class='top_work'>
+            <image src='../../image/greenbg.png' class='box1'>
+              <image src='{{production1}}' class='box_img'></image>
+                  <view class='text'>
+                      <text class='work_name'>《爱心树》</text>
+                      <text class='finish_time'>2017-11-14</text>
+                  </view>
+            </image>
+        
+            <image src='../../image/greenbg.png' class='box2'>
+              <image src='{{production2}}' class='box_img'></image>
+                  <view class='text'>
+                      <text class='work_name'>《大树的外套》</text>
+                      <text class='finish_time'>2017-11-14</text>
+                  </view>
+            </image>
+        </view>  
+        
+        <view class='top_work'>
+            <image src='../../image/greenbg.png' class='box1'>
+              <image src='{{production3}}' class='box_img'></image>
+                  <view class='text'>
+                      <text class='work_name'>《大树和小鸟》</text>
+                      <text class='finish_time'>2017-11-14</text>
+                  </view>
+            </image>
+
+            <image src='../../image/greenbg.png' class='box2'>
+              <image src='{{production4}}' class='box_img'></image>
+                  <view class='text'>
+                      <text class='work_name'>《圣诞树》</text>
+                      <text class='finish_time'>2017-11-14</text>
+                  </view>
+            </image>
+          </view>
+      </view>    
+  </view>
+
+
+  <!-- 底部 -->
+ <view class='footer'>
+   <image src='http://www.datouart.com/upload/20171207/fa204310f1090ef56d12d86a2f900e9d.png?random="'> <text bindtap="post">请老师指导</text></image>
+ </view>
+</view>

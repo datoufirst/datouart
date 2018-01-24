@@ -1,0 +1,69 @@
+<!--授权成功  -->
+<view hidden='{{a}}'> 
+    <view class="content">
+
+      <view class="nav"> 
+        <view class="navbar">  
+          <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique" bindtap="navbarTap">{{item}}
+          </text>   
+        </view> 
+      </view> 
+
+      <view hidden="{{currentTab!==0}}" class="one" bindchange="bindChange" > 
+          <!-- 亲子活动 -->  
+            <view class='son'>         
+            <!--第一组  -->
+              <view class="box-nav-one" wx:for="{{activeinfo}}" wx:for-item="item" wx:for-index="key" >
+                <image src="../../image/activebg.png" data-id='{{item.activity_id}}' data-topimg='{{item.imgId2}}' data-botimg='{{item.imgId3}}' data-status='{{item.status}}' bindtap='join'>
+                  <view class="box-nav-one-left"  >
+                    <image src='{{item.imgId[0]}}'></image>
+                  </view>
+                  <view class="box-nav-one-right">
+                    <text class="active">{{item.title}}</text>
+                    <text class="active-info">{{item.relevant}}</text>
+                    <text class="active-time">{{item.times}}</text>
+                    <view class='btn'>
+                      <image src='../../image/success.png'>
+                       <view>立即报名</view>
+                      </image>
+                    </view>
+                  </view>
+                </image>
+              </view>  
+        </view>  
+      </view>
+        <!-- 儿童畅游 -->  
+        <view hidden="{{currentTab!==1}}" class="one" bindchange="bindChange" > 
+          <view class='son'>
+           
+           <view class='mei'>
+            还没有儿童畅游活动呢
+           </view>
+         
+          </view>  
+        </view>  
+        
+
+    </view>
+</view>
+
+<!-- 授权不成功 -->
+<view hidden='{{b}}'>
+  <view class='top_warn'>
+    <icon type='warn' size='60' class='icon'></icon>
+  
+    <view>
+       <view class='warn_title'>登录失败</view> 
+       <text>进入大头课堂需要授权，请重新进入并允许授权</text> 
+    </view> 
+  </view>
+
+  <view class='body_warn'>
+    <view class='body_center'>
+        <view class='body_title'>如何允许微信授权</view>
+        <view class='body_a'>1.在小程序列表中长按“大头儿子学画画”删除之后，重新搜索“大头儿子学画画”进入</view>
+        <image src='../../image/warn.jpg'></image>
+         <view class='body_a'>2.点击进入“大头儿子学画画”小程序之后，将出现以下微信授权页面，点击“允许”</view>
+    </view>
+ </view> 
+</view>
